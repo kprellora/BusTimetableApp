@@ -17,6 +17,18 @@ function createBusesView(routes_data) {
     bus_list.appendChild(button);
     
     button.addEventListener("click", function() {
+      // bus_list.classList.add("hide");
+      // table.classList.remove("hide");
+
+      var timetable = [];
+      var major_stops = Object.keys(element.timetable[0]);
+      timetable[0] = major_stops;      
+      for (i = 0; i < element.timetable.length; i++) {
+        timetable.push(Object.values(element.timetable[i]));
+      }
+      // console.log(timetable);
+
+      createTable(timetable);
     });
   });
 }
