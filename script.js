@@ -32,3 +32,35 @@ function createBusesView(routes_data) {
     });
   });
 }
+
+// https://stackoverflow.com/questions/15164655/generate-html-table-from-2d-javascript-array
+function createTable(tableData) {
+  current_table = document.getElementById("current-table");
+  current_table.remove();
+  
+  var table = document.createElement('table');
+  var tableHead = document.createElement('thead');
+  var tableBody = document.createElement('tbody');
+  table.id = "current-table";
+
+  tableData[0].forEach(function(cellData) {
+    var cell = document.createElement('td');
+    cell.appendChild(document.createTextNode(cellData));
+    row.appendChild(cell);
+  });
+
+  tableData.forEach(function(rowData) {
+    var row = document.createElement('tr');
+    rowData.forEach(function(cellData) {
+      var cell = document.createElement('td');
+      cell.appendChild(document.createTextNode(cellData));
+      row.appendChild(cell);
+    });
+    tableBody.appendChild(row);
+  });
+  table.appendChild(tableHead);  
+  table.appendChild(tableBody);
+  bus_table.appendChild(table);
+}
+
+
