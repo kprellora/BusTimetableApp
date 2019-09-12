@@ -1,7 +1,7 @@
 var bus_list = document.getElementById("bus-list");
 var bus_table = document.getElementById("bus-table");
 
-fetch("main.json")
+fetch("bus_data.json")
   .then(function(routes) {
     return routes.json();
   })
@@ -20,47 +20,41 @@ function createBusesView(routes_data) {
       // bus_list.classList.add("hide");
       // table.classList.remove("hide");
 
-      var timetable = [];
-      var major_stops = Object.keys(element.timetable[0]);
-      timetable[0] = major_stops;      
-      for (i = 0; i < element.timetable.length; i++) {
-        timetable.push(Object.values(element.timetable[i]));
-      }
-      // console.log(timetable);
-
-      createTable(timetable);
+      var timetable = element.timetable;
+      createTimetable(timetable);
     });
   });
 }
 
-// https://stackoverflow.com/questions/15164655/generate-html-table-from-2d-javascript-array
-function createTable(tableData) {
-  current_table = document.getElementById("current-table");
-  current_table.remove();
-  
-  var table = document.createElement('table');
-  var tableHead = document.createElement('thead');
-  var tableBody = document.createElement('tbody');
+// Majority of table code from https://www.valentinog.com/blog/html-table/
+function createTimetable(timetable) {
+  document.getElementById("current-table").remove();
+  let table = document.createElement('table');
   table.id = "current-table";
-
-  tableData[0].forEach(function(cellData) {
-    var cell = document.createElement('td');
-    cell.appendChild(document.createTextNode(cellData));
-    row.appendChild(cell);
-  });
-
-  tableData.forEach(function(rowData) {
-    var row = document.createElement('tr');
-    rowData.forEach(function(cellData) {
-      var cell = document.createElement('td');
-      cell.appendChild(document.createTextNode(cellData));
-      row.appendChild(cell);
-    });
-    tableBody.appendChild(row);
-  });
-  table.appendChild(tableHead);  
-  table.appendChild(tableBody);
   bus_table.appendChild(table);
+  let data = Object.keys(timetable[0]);
+  createTableHead(table, data);
+  createTableBody(table, timetable);
 }
 
+function createTableHead(table, data) {
+  let thead = table.createTHead();
+  let row = thead.insertRow();
+  for (let key of data) {
+    let th = document.createElement("th");
+    let text = document.createTextNode(key);
+    th.appendChild(text);
+    row.appendChild(th);
+  }
+}
 
+function createTableBody(table, data) {
+  for (let element of data) {
+    let row = table.insertRow();
+    for (key in element) {
+      let cell = row.insertCell();
+      let text = document.createTextNode(element[key]);
+      cell.appendChild(text);
+    }
+  }
+}
