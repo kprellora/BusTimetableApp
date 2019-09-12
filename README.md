@@ -1,4 +1,5 @@
-## HIT238
-### The Mobile Paradigm
+# Bus Timetable App
 
-This repository contains work done for the unit HIT238 by Karren.
+https://kprellora.github.io/BusTimetableApp
+
+A bus timetable app for Darwin & Palmerston public buses, made using HTML, CSS and JavaScript.
