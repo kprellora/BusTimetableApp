@@ -6,92 +6,92 @@
     "colour": "004C5B",
     "timetable": [
       {
-      "Bus Route": "6(d)",
-      "Darwin Interchange": "...",
+      "Major Stops": "6(d)",
+      "Darwin Inter-change": "...",
       "Museum": "...",
       "Philip St Shops": "6:35",
       "Parap Rd": "6:41",
-      "Darwin Interchange__1": "6:50"
+      "Darwin Inter-change__1": "6:50"
       },
       {
-      "Bus Route": "6",
-      "Darwin Interchange": "7:10",
+      "Major Stops": "6",
+      "Darwin Inter-change": "7:10",
       "Museum": "7:20",
       "Philip St Shops": "7:24",
       "Parap Rd": "7:30",
-      "Darwin Interchange__1": "7:45"
+      "Darwin Inter-change__1": "7:45"
       },
       {
-      "Bus Route": "6",
-      "Darwin Interchange": "8:00",
+      "Major Stops": "6",
+      "Darwin Inter-change": "8:00",
       "Museum": "8:10",
       "Philip St Shops": "8:14",
       "Parap Rd": "8:20",
-      "Darwin Interchange__1": "8:40"
+      "Darwin Inter-change__1": "8:40"
       },
       {
-      "Bus Route": "6",
-      "Darwin Interchange": "8:58",
+      "Major Stops": "6",
+      "Darwin Inter-change": "8:58",
       "Museum": "9:08",
       "Philip St Shops": "9:12",
       "Parap Rd": "9:18",
-      "Darwin Interchange__1": "9:28"
+      "Darwin Inter-change__1": "9:28"
       },
       {
-      "Bus Route": "6",
-      "Darwin Interchange": "9:35",
+      "Major Stops": "6",
+      "Darwin Inter-change": "9:35",
       "Museum": "9:45",
       "Philip St Shops": "9:49",
       "Parap Rd": "9:55",
-      "Darwin Interchange__1": "10:10"
+      "Darwin Inter-change__1": "10:10"
       },
       {
-      "Bus Route": "6",
-      "Darwin Interchange": "10:35",
+      "Major Stops": "6",
+      "Darwin Inter-change": "10:35",
       "Museum": "10:45",
       "Philip St Shops": "10:49",
       "Parap Rd": "10:55",
-      "Darwin Interchange__1": "11:05"
+      "Darwin Inter-change__1": "11:05"
       },
       {
-      "Bus Route": "6",
-      "Darwin Interchange": "12:30",
+      "Major Stops": "6",
+      "Darwin Inter-change": "12:30",
       "Museum": "12:40",
       "Philip St Shops": "12:44",
       "Parap Rd": "12:50",
-      "Darwin Interchange__1": "1:05"
+      "Darwin Inter-change__1": "1:05"
       },
       {
-      "Bus Route": "6",
-      "Darwin Interchange": "2:35",
+      "Major Stops": "6",
+      "Darwin Inter-change": "2:35",
       "Museum": "2:45",
       "Philip St Shops": "2:49",
       "Parap Rd": "2:55",
-      "Darwin Interchange__1": "3:15"
+      "Darwin Inter-change__1": "3:15"
       },
       {
-      "Bus Route": "6(c)",
-      "Darwin Interchange": "3:24",
+      "Major Stops": "6(c)",
+      "Darwin Inter-change": "3:24",
       "Museum": "3:35",
       "Philip St Shops": "3:39",
       "Parap Rd": "3:45",
-      "Darwin Interchange__1": "4:00"
+      "Darwin Inter-change__1": "4:00"
       },
       {
-      "Bus Route": "6",
-      "Darwin Interchange": "4:30",
+      "Major Stops": "6",
+      "Darwin Inter-change": "4:30",
       "Museum": "4:40",
       "Philip St Shops": "4:44",
       "Parap Rd": "4:50",
-      "Darwin Interchange__1": "5:06"
+      "Darwin Inter-change__1": "5:06"
       },
       {
-      "Bus Route": "6",
-      "Darwin Interchange": "5:35",
+      "Major Stops": "6",
+      "Darwin Inter-change": "5:35",
       "Museum": "5:45",
       "Philip St Shops": "5:49",
       "Parap Rd": "5:55",
-      "Darwin Interchange__1": "6:05"
+      "Darwin Inter-change__1": "6:05"
       }
     ]
   },
@@ -102,92 +102,92 @@
     "colour": "004C5B",
     "timetable": [
       {
-        "Bus Route": "7",
-        "Darwin Interchange": "6:35",
+        "Major Stops": "7",
+        "Darwin Inter-change": "6:35",
         "Westralia St Shops": "6:41",
         "Bayview": "6:56",
         "Tipperary Waters": "7:00",
-        "Darwin Interchange__1": "7:05"
+        "Darwin Inter-change__1": "7:05"
       },
       {
-        "Bus Route": "7",
-        "Darwin Interchange": "7:10",
+        "Major Stops": "7",
+        "Darwin Inter-change": "7:10",
         "Westralia St Shops": "7:16",
         "Bayview": "7:31",
         "Tipperary Waters": "7:35",
-        "Darwin Interchange__1": "7:40"
+        "Darwin Inter-change__1": "7:40"
       },
       {
-        "Bus Route": "7",
-        "Darwin Interchange": "8:00",
+        "Major Stops": "7",
+        "Darwin Inter-change": "8:00",
         "Westralia St Shops": "8:06",
         "Bayview": "8:21",
         "Tipperary Waters": "8:25",
-        "Darwin Interchange__1": "8:30"
+        "Darwin Inter-change__1": "8:30"
       },
       {
-        "Bus Route": "7",
-        "Darwin Interchange": "8:58",
+        "Major Stops": "7",
+        "Darwin Inter-change": "8:58",
         "Westralia St Shops": "9:04",
         "Bayview": "9:19",
         "Tipperary Waters": "9:23",
-        "Darwin Interchange__1": "9:28"
+        "Darwin Inter-change__1": "9:28"
       },
       {
-        "Bus Route": "7",
-        "Darwin Interchange": "9:35",
+        "Major Stops": "7",
+        "Darwin Inter-change": "9:35",
         "Westralia St Shops": "9:41",
         "Bayview": "9:56",
         "Tipperary Waters": "10:00",
-        "Darwin Interchange__1": "10:05"
+        "Darwin Inter-change__1": "10:05"
       },
       {
-        "Bus Route": "7",
-        "Darwin Interchange": "10:35",
+        "Major Stops": "7",
+        "Darwin Inter-change": "10:35",
         "Westralia St Shops": "10:41",
         "Bayview": "10:56",
         "Tipperary Waters": "11:00",
-        "Darwin Interchange__1": "11:05"
+        "Darwin Inter-change__1": "11:05"
       },
       {
-        "Bus Route": "7",
-        "Darwin Interchange": "12:35",
+        "Major Stops": "7",
+        "Darwin Inter-change": "12:35",
         "Westralia St Shops": "12:41",
         "Bayview": "12:56",
         "Tipperary Waters": "1:00",
-        "Darwin Interchange__1": "1:05"
+        "Darwin Inter-change__1": "1:05"
       },
       {
-        "Bus Route": "7",
-        "Darwin Interchange": "2:45",
+        "Major Stops": "7",
+        "Darwin Inter-change": "2:45",
         "Westralia St Shops": "2:51",
         "Bayview": "3:06",
         "Tipperary Waters": "3:10",
-        "Darwin Interchange__1": "3:15"
+        "Darwin Inter-change__1": "3:15"
       },
       {
-        "Bus Route": "7(a)",
-        "Darwin Interchange": "3:24",
+        "Major Stops": "7(a)",
+        "Darwin Inter-change": "3:24",
         "Westralia St Shops": "3:30",
         "Bayview": "3:44",
         "Tipperary Waters": "3:48",
-        "Darwin Interchange__1": "3:54"
+        "Darwin Inter-change__1": "3:54"
       },
       {
-        "Bus Route": "7",
-        "Darwin Interchange": "4:36",
+        "Major Stops": "7",
+        "Darwin Inter-change": "4:36",
         "Westralia St Shops": "4:42",
         "Bayview": "4:57",
         "Tipperary Waters": "5:01",
-        "Darwin Interchange__1": "5:06"
+        "Darwin Inter-change__1": "5:06"
       },
       {
-        "Bus Route": "7",
-        "Darwin Interchange": "5:35",
+        "Major Stops": "7",
+        "Darwin Inter-change": "5:35",
         "Westralia St Shops": "5:41",
         "Bayview": "5:56",
         "Tipperary Waters": "6:00",
-        "Darwin Interchange__1": "6:05"
+        "Darwin Inter-change__1": "6:05"
       }
     ]
   }
