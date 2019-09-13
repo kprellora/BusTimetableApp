@@ -1,23 +1,25 @@
-var bus_list = document.getElementById("bus-list");
-var bus_table = document.getElementById("bus-table");
-
 fetch("bus_data.json")
-  .then(function(routes) {
-    return routes.json();
+.then(function(data) {
+  return data.json();
   })
-  .then(function(routes_data) {
-    createBusesView(routes_data);
-  })
+.then(function(bus_data) {
+  listAllBuses(bus_data);
+});
   
-function createBusesView(routes_data) {
-  routes_data.forEach(function(element) {
+var buses_page = document.getElementById("buses-page");
+var timetables_page = document.getElementById("timetables-page");
+
+// create a button for each bus
+function listAllBuses(bus_data) {
+  bus_data.forEach(function(bus) {
     var button = document.createElement("button");
-    button.innerHTML = element.route;
+    button.innerHTML = bus.bus;
     button.classList.add("bus-button");
-    bus_list.appendChild(button);
+    buses_page.appendChild(button);
     
+    // set each button to create its timetable
     button.addEventListener("click", function() {
-      // bus_list.classList.add("hide");
+      // buses_page.classList.add("hide");
       // table.classList.remove("hide");
 
       var timetable = element.timetable;
@@ -37,23 +39,25 @@ function createTimetable(timetable) {
   createTableBody(table, timetable);
 }
 
+// create major stops heading
 function createTableHead(table, data) {
-  let thead = table.createTHead();
-  let row = thead.insertRow();
-  for (let key of data) {
-    let th = document.createElement("th");
-    let text = document.createTextNode(key);
+  var thead = table.createTHead();
+  var row = thead.insertRow();
+  for (var key of data) {
+    var th = document.createElement("th");
+    var text = document.createTextNode(key);
     th.appendChild(text);
     row.appendChild(th);
   }
 }
 
+// create rows of trips
 function createTableBody(table, data) {
-  for (let element of data) {
-    let row = table.insertRow();
+  for (var element of data) {
+    var row = table.insertRow();
     for (key in element) {
-      let cell = row.insertCell();
-      let text = document.createTextNode(element[key]);
+      var cell = row.insertCell();
+      var text = document.createTextNode(element[key]);
       cell.appendChild(text);
     }
   }
