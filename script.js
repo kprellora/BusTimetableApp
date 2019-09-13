@@ -97,7 +97,7 @@ function createTimetablePage(bus, trip = 0) { // using bus data
   route_info.appendChild(trip_desc);
 
 
-  // *FINALLY* lol create the timetable
+  // create the timetable
   // for each trip
   for (i = 0; i < bus["trips"].length; i++) {
     // create a trip_div
@@ -105,34 +105,48 @@ function createTimetablePage(bus, trip = 0) { // using bus data
     trip_div.id = ("trip"+i);
     trip_div.classList.add("trip-div");
 
-    for (k = 0; k < bus["trips"][i]["services"].length; k++) {
-      var service_button = document.createElement("button");
-      service_button.innerHTML = bus["trips"][i]["services"][k]["service"];
-      service_button.id = ("service"+k);
-      trip_div.appendChild(service_button);
-    }
-
+    // for each trip_div
     for (j = 0; j < bus["trips"][i]["services"].length; j++) {
       var timetable = (bus["trips"][i]["services"][j]["timetable"]);
+      // create a table_div
       var table_div = document.createElement("div");
-      table_div.id = ("trip"+(i)+"service"+(j));
+      table_div.id = ("trip"+i+"service"+(j));
       table_div.classList.add("table-div");
 
       var table = document.createElement("table");
       var data = Object.keys(timetable[0]);
       // console.log(table_div.id);
-      // if (j > 0) {
-      //   table_div.classList.add("hide");
-      // }
+      if (j > 0) {
+        table_div.classList.add("hide");
+      }
   createTableHead(table, data);
   createTableBody(table, timetable);
       table_div.appendChild(table);
       trip_div.appendChild(table_div);
     }
     trip_container.appendChild(trip_div);
+
+    // for each trip_div, create service buttons (days)
+    for (k = bus["trips"][i]["services"].length-1; k >= 0; k--) {
+      var service_button = document.createElement("button");
+      service_button.innerHTML = bus["trips"][i]["services"][k]["service"];
+      service_button.id = ("service"+k);
+      trip_div.prepend(service_button);
+
+      service_button.addEventListener("click", function(evt) {
+        // https://stackoverflow.com/questions/19650368/hide-div-by-class-id
+        var divs_to_hide = document.getElementsByClassName("table-div");
+        for(var n = 0; n < divs_to_hide.length; n++) {
+          divs_to_hide[n].classList.add("hide");
+        }
+        var target = evt.target.getAttribute('id');
+        document.getElementById("trip"+(trip)+target).classList.remove("hide");
+      });
+    }
   }
 
   // chooses which table to show based on defaults
+  if (bus["trips"].length > 1) {
   var trip0 = document.getElementById("trip0");
   var trip1 = document.getElementById("trip1");
   if (trip == 0) {
@@ -142,6 +156,7 @@ function createTimetablePage(bus, trip = 0) { // using bus data
     trip0.classList.add("hide");
     trip1.classList.remove("hide");
   }
+}
 }
 
 // create major stops heading
