@@ -11,7 +11,7 @@ body {
   box-sizing: border-box;
   width: 100%;
   font-size: 100%;
-  padding: 1rem;
+  padding: 10px;
 }
 
 .bus-button {
@@ -57,11 +57,12 @@ th {
   border: 1px solid black;
   text-align: center;
   margin: 2px;
-  width: inherit;
+  /* width: 100%; */
 }
 th {
   background: black;
   color: white;
+  padding: 5px;
 }
 
 .routing {
@@ -71,18 +72,16 @@ th {
 .page {
   display: block;
   border: 2px solid pink;
+  padding: 10px;
   margin: 5px;
-  padding: 5px;
 }
 
 .trip-div {
-  padding: 5px;
+  padding: 10px;
   border: 2px red dotted;
-  margin: 5px;
 }
 
 .table-div {
-  padding: 5px;
+  padding: 10px;
   border: 2px purple dashed;
-  margin: 5px;
 }
