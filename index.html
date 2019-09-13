@@ -10,12 +10,23 @@
 </head>
 <body>
   <h1>Bus Timetable App</h1>
-  <h2>Buses</h2>
-  <div id="bus-list">
+  <div id="buses-page" class="page">
+      <h2>Buses</h2>
   </div>
-  <div id="bus-table">
+  <div id="timetables-page" class="page">
     <h2>Timetable</h2>
-    <table id="current-table"></table>
+    <div id="timetable-container">
+      <div id="info-container">
+        <div id="route_info">
+          <div id="route-switcher">
+            <div class="routing" id="origin"></div>
+            <div class="routing" id="switch"></div>
+            <div class="routing" id="destination"></div>
+          </div>
+        </div>
+      </div>
+      <div id="trip-container"></div>
+    </div>
   </div>
 </body>
 </html>
