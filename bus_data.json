@@ -11,7 +11,7 @@
         "destination": "Darwin",
         "services": [
           {
-            "service": "MonFri",
+            "service": "Mon-Fri",
             "timetable": [
               {
                 "Major Stops": "4",
@@ -1127,7 +1127,7 @@
         "destination": "Casuarina",
         "services" : [
           {
-            "service": "MonFri",
+            "service": "Mon-Fri",
             "timetable": [
               {
                 "Major Stops": "4",
@@ -2256,7 +2256,7 @@
         "destination": "Darwin",
         "services": [
           {
-            "service": "MonFri",
+            "service": "Mon-Fri",
             "timetable": [
               {
                 "Major Stops": "6(d)",
@@ -2364,7 +2364,7 @@
         "destination": "Darwin",
         "services": [
           {
-            "service": "MonFri",
+            "service": "Mon-Fri",
             "timetable": [
               {
                 "Major Stops": "7",
