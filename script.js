@@ -28,6 +28,8 @@ function listAllBuses(bus_data) {
 
 // Code from https://www.valentinog.com/blog/html-table/
 function createTimetablePage(bus, trip = 0) { // using bus data
+  // reset timetable-container everytime a bus button is clicked
+  document.getElementById("timetable-container").remove();
 
   // create divs, set ID, append
   var timetable_container = document.createElement("div");
@@ -42,6 +44,11 @@ function createTimetablePage(bus, trip = 0) { // using bus data
   timetable_container.appendChild(info_container);
   info_container.appendChild(route_info);
   timetable_container.appendChild(trip_container);
+
+  // var timetable = (bus_data[0]["trips"][0]["services"][0]["timetable"]);
+
+  // CREATE TIMETABLE INFO
+  if (bus["trips"].length > 1) {
     // create route switcher if bus has 2 trips (e.g. C->D, D->C)
     var route_switcher = document.createElement("div");
     var origin = document.createElement("div");
@@ -66,7 +73,18 @@ function createTimetablePage(bus, trip = 0) { // using bus data
     switch_button.innerHTML = "&#x21c4";
     // add button to switch div in route_info div
     switcher.appendChild(switch_button);
+
+    // switch button changes trip value to the other one
+    switch_button.addEventListener("click", function() {
+      if (trip == 0) {
+        createTimetablePage(bus, trip = 1);
+      } else {
+        createTimetablePage(bus, trip = 0);
+      }
     });
+
+  // if bus has only one trip (e.g. C <-> C)
+  } else {
     // just display the trip name in route_info
     var p = document.createElement("p");
     p.innerHTML = (bus["trips"][0]["name"]);
@@ -77,8 +95,52 @@ function createTimetablePage(bus, trip = 0) { // using bus data
   var trip_desc = document.createElement("p");
   trip_desc.innerHTML = (bus["trips"][trip]["desc"]);
   route_info.appendChild(trip_desc);
+
+
+  // *FINALLY* lol create the timetable
+  // for each trip
+  for (i = 0; i < bus["trips"].length; i++) {
+    // create a trip_div
+    var trip_div = document.createElement("div");
+    trip_div.id = ("trip"+i);
+    trip_div.classList.add("trip-div");
+
+    for (k = 0; k < bus["trips"][i]["services"].length; k++) {
+      var service_button = document.createElement("button");
+      service_button.innerHTML = bus["trips"][i]["services"][k]["service"];
+      service_button.id = ("service"+k);
+      trip_div.appendChild(service_button);
+    }
+
+    for (j = 0; j < bus["trips"][i]["services"].length; j++) {
+      var timetable = (bus["trips"][i]["services"][j]["timetable"]);
+      var table_div = document.createElement("div");
+      table_div.id = ("trip"+(i)+"service"+(j));
+      table_div.classList.add("table-div");
+
+      var table = document.createElement("table");
+      var data = Object.keys(timetable[0]);
+      // console.log(table_div.id);
+      // if (j > 0) {
+      //   table_div.classList.add("hide");
+      // }
   createTableHead(table, data);
   createTableBody(table, timetable);
+      table_div.appendChild(table);
+      trip_div.appendChild(table_div);
+    }
+    trip_container.appendChild(trip_div);
+  }
+
+  // chooses which table to show based on defaults
+  var trip0 = document.getElementById("trip0");
+  var trip1 = document.getElementById("trip1");
+  if (trip == 0) {
+    trip0.classList.remove("hide");
+    trip1.classList.add("hide");
+  } else if (trip == 1) {
+    trip0.classList.add("hide");
+    trip1.classList.remove("hide");
   }
 }
 
