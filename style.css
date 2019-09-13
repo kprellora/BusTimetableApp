@@ -37,3 +37,52 @@ li {
 .hide {
   display: none;
 }
+
+.trip-container {
+  display: block;
+  background: pink;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+tr>td:first-child {
+  font-weight: bold;
+}
+th {
+  font-weight: normal;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+  margin: 2px;
+  width: inherit;
+}
+th {
+  background: black;
+  color: white;
+}
+
+.routing {
+  display: inline-block;
+}
+
+.page {
+  display: block;
+  border: 2px solid pink;
+  margin: 5px;
+  padding: 5px;
+}
+
+.trip-div {
+  padding: 5px;
+  border: 2px red dotted;
+  margin: 5px;
+}
+
+.table-div {
+  padding: 5px;
+  border: 2px purple dashed;
+  margin: 5px;
+}
