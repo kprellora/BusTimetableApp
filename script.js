@@ -6,10 +6,12 @@ fetch("bus_data.json")
   listAllBuses(bus_data);
 });
 
-var bus_list_button = document.getElementById("bus-list");
+var bus_list_button = document.getElementById("bus-nav");
 bus_list_button.addEventListener("click", function() {
   buses_page.style.display = "Block";
   timetables_page.style.display = "None";
+  document.getElementById("bus-nav").classList.add("active-nav");
+
 });
 
 var bus_container = document.getElementsByClassName("bus-container")[0];
@@ -19,11 +21,12 @@ timetables_page.style.display = "None";
 
 // create a button for each bus
 function listAllBuses(bus_data) {
+  
   bus_data.forEach(function(bus) {
+    document.getElementById("bus-nav").classList.add("active-nav");
     var button = document.createElement("div");
     button.innerHTML = bus.bus;
     button.classList.add("bus-button");
-    button.style.backgroundColor = ("#"+bus.colour);
     bus_container.appendChild(button);
 
     // set each button to create its timetable
@@ -38,6 +41,7 @@ function listAllBuses(bus_data) {
 // Code from https://www.valentinog.com/blog/html-table/
 function createTimetablePage(bus, trip = 0) { // using bus data
   // reset timetable-container everytime a bus button is clicked
+  document.getElementById("bus-nav").classList.remove("active-nav");
   document.getElementById("timetable-container").remove();
 
   // create divs, set ID, append
@@ -139,13 +143,17 @@ function createTimetablePage(bus, trip = 0) { // using bus data
       trip_div.appendChild(table_div);
     }
     trip_container.appendChild(trip_div);
-
+    
+    var serv_btn_container = document.createElement("div");
     // for each trip_div, create service buttons (days)
     for (k = bus["trips"][i]["services"].length-1; k >= 0; k--) {
-      var service_button = document.createElement("button");
+      var service_button = document.createElement("div");
+      service_button.classList.add("service-button");
       service_button.innerHTML = bus["trips"][i]["services"][k]["service"];
       service_button.id = ("service"+k);
-      trip_div.prepend(service_button);
+      serv_btn_container.classList.add("serv-btn-container");
+      serv_btn_container.prepend(service_button)
+      trip_div.prepend(serv_btn_container);
 
       service_button.addEventListener("click", function(evt) {
         // https://stackoverflow.com/questions/19650368/hide-div-by-class-id
