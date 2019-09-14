@@ -1,26 +1,34 @@
 fetch("bus_data.json")
 .then(function(data) {
   return data.json();
-  })
+})
 .then(function(bus_data) {
   listAllBuses(bus_data);
 });
-  
+
+var bus_container = document.getElementsByClassName("bus-container")[0];
 var buses_page = document.getElementById("buses-page");
 var timetables_page = document.getElementById("timetables-page");
+timetables_page.style.display = "None";
+var back_button = document.getElementsByClassName("back-button")[0];
+back_button.addEventListener("click", function() {
+  buses_page.style.display = "Block";
+  timetables_page.style.display = "None";
+});
 
 // create a button for each bus
 function listAllBuses(bus_data) {
   bus_data.forEach(function(bus) {
-    var button = document.createElement("button");
+    var button = document.createElement("div");
     button.innerHTML = bus.bus;
     button.classList.add("bus-button");
-    buses_page.appendChild(button);
-    
+    button.style.backgroundColor = ("#"+bus.colour);
+    bus_container.appendChild(button);
+
     // set each button to create its timetable
     button.addEventListener("click", function() {
-      // buses_page.classList.add("hide");
-      // table.classList.remove("hide");
+      buses_page.style.display = "None";
+      timetables_page.style.display = "Block";
       createTimetablePage(bus);
     });
   });
@@ -58,9 +66,9 @@ function createTimetablePage(bus, trip = 0) { // using bus data
     origin.id = "origin";
     switcher.id = "switcher";
     destination.id = "destination";
-    origin.classList.add("routing");
+    origin.classList.add("routing", "rs-origin");
     switcher.classList.add("routing");
-    destination.classList.add("routing");
+    destination.classList.add("routing", "rs-destination");
     route_info.appendChild(route_switcher);
     route_switcher.appendChild(origin);
     route_switcher.appendChild(switcher);
@@ -69,7 +77,8 @@ function createTimetablePage(bus, trip = 0) { // using bus data
     // create route-switcher labels and button
     origin.innerHTML = bus["trips"][trip]["origin"];
     destination.innerHTML = bus["trips"][trip]["destination"];
-    var switch_button = document.createElement("button");
+    var switch_button = document.createElement("div");
+    switch_button.classList.add("rs-switcher");
     switch_button.innerHTML = "&#x21c4";
     // add button to switch div in route_info div
     switcher.appendChild(switch_button);
@@ -87,15 +96,20 @@ function createTimetablePage(bus, trip = 0) { // using bus data
   } else {
     // just display the trip name in route_info
     var p = document.createElement("p");
-    p.innerHTML = (bus["trips"][0]["name"]);
+    p.innerHTML = (bus["trips"][0]["origin"]+" to "+bus["trips"][0]["destination"]);
     route_info.appendChild(p);
-}
+  }
 
   // show trip desc (i.e. via ...)
   var trip_desc = document.createElement("p");
   trip_desc.innerHTML = (bus["trips"][trip]["desc"]);
   route_info.appendChild(trip_desc);
 
+  /*
+      .---------------------------------.
+     | bus #, next stop, stop name, ETA |
+     '---------------------------------'
+  */
 
   // create the timetable
   // for each trip
@@ -119,8 +133,8 @@ function createTimetablePage(bus, trip = 0) { // using bus data
       if (j > 0) {
         table_div.classList.add("hide");
       }
-  createTableHead(table, data);
-  createTableBody(table, timetable);
+      createTableHead(table, data);
+      createTableBody(table, timetable);
       table_div.appendChild(table);
       trip_div.appendChild(table_div);
     }
@@ -147,16 +161,16 @@ function createTimetablePage(bus, trip = 0) { // using bus data
 
   // chooses which table to show based on defaults
   if (bus["trips"].length > 1) {
-  var trip0 = document.getElementById("trip0");
-  var trip1 = document.getElementById("trip1");
-  if (trip == 0) {
-    trip0.classList.remove("hide");
-    trip1.classList.add("hide");
-  } else if (trip == 1) {
-    trip0.classList.add("hide");
-    trip1.classList.remove("hide");
+    var trip0 = document.getElementById("trip0");
+    var trip1 = document.getElementById("trip1");
+    if (trip == 0) {
+      trip0.classList.remove("hide");
+      trip1.classList.add("hide");
+    } else if (trip == 1) {
+      trip0.classList.add("hide");
+      trip1.classList.remove("hide");
+    }
   }
-}
 }
 
 // create major stops heading
