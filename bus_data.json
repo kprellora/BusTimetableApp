@@ -1,7 +1,7 @@
 [
   {
     "bus": "4",
-    "route": "Casuarina Darwin Casuarina",
+    "route": "Casuarina to Darwin and return",
     "colour": "004C5B",
     "trips": [
       {
@@ -2246,7 +2246,7 @@
   },
   {
     "bus": "6",
-    "route": "Darwin to Darwin",
+    "route": "Darwin to Darwin suburbs and return",
     "colour": "004C5B",
     "trips": [
       {
@@ -2354,7 +2354,7 @@
   },
   {
     "bus": "7",
-    "route": "Darwin to Darwin",
+    "route": "Darwin to Darwin suburbs and return",
     "colour": "004C5B",
     "trips": [
       {
@@ -2461,8 +2461,8 @@
     ]
   },
   {
-    "bus": "OL2",
-    "route": "",
+    "bus": "OL1",
+    "route": "Palmerston to Palmerston suburbs and return",
     "desc": "",
     "colour": "",
     "trips": [
@@ -2483,7 +2483,7 @@
   },
   {
     "bus": "450",
-    "route": "",
+    "route": "Rural areas to Palmerston and return",
     "desc": "",
     "colour": "",
     "trips": [
@@ -2504,7 +2504,7 @@
   },
   {
     "bus": "28",
-    "route": "",
+    "route": "Darwin to Palmerston and return",
     "desc": "",
     "colour": "",
     "trips": [
@@ -2525,7 +2525,49 @@
   },
   {
     "bus": "OL2",
-    "route": "",
+    "route": "Casuarina to Palmerston and return",
+    "desc": "",
+    "colour": "",
+    "trips": [
+      {
+        "name": "Palmerston to Palmerston",
+        "origin": "",
+        "destination": "",
+        "services": [
+          {
+            "service": "",
+            "timetable": [
+  
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bus": "88",
+    "route": "Casuarina to northern suburbs and return",
+    "desc": "",
+    "colour": "",
+    "trips": [
+      {
+        "name": "Palmerston to Palmerston",
+        "origin": "",
+        "destination": "",
+        "services": [
+          {
+            "service": "",
+            "timetable": [
+  
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bus": "66",
+    "route": "Mindil Beach sunset market",
     "desc": "",
     "colour": "",
     "trips": [

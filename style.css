@@ -24,19 +24,12 @@ ul {
 li {
   flex: 1;
   list-style: none;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .hide {
   display: none;
 }
-
-/* .trip-container {
-  display: block;
-  background: pink;
-  border: 2px solid black;
-  margin: 5px;
-} */
 
 tr>td:first-child {
   font-weight: bold;
@@ -72,9 +65,6 @@ tr>th:last-child {
   border-top-right-radius: 10px;
 }
 
-
-
-
 .page {
   display: block;
   margin: 5px;
@@ -94,8 +84,12 @@ tr>th:last-child {
   left: 0;
   right: 0; 
   background: white; 
-  color: black;
+  color: darkblue;
   /* box-shadow: 0px 0px 5px gray; */
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, .05);
 }
 
 .bottom-nav {
@@ -109,7 +103,7 @@ tr>th:last-child {
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   font-weight: bold;
-  box-shadow: 0px -1px 15px rgba(0, 0, 0, .04);
+  box-shadow: 0px -1px 5px rgba(0, 0, 0, .04);
 }
 
 .active-nav {
@@ -121,7 +115,6 @@ h1 {
 }
 
 .bus-button {
-  /* display: inline-block; */
   width: 20vw;
   height: 20vw;
   background: royalblue;
@@ -132,17 +125,23 @@ h1 {
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
-  border-radius: 4px;
+  border-radius: 10px;
   border: 2px solid black;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, .2);
+
 }
 .bus-button:active {
   background: deepskyblue;
 }
 
-.bus-container {
+.bus-container, .route-name {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 3rem 0;
+  padding: 4rem 0;
+}
+
+.route-name {
+  padding: 0;
 }
 
 h2 {
@@ -177,11 +176,11 @@ h2 {
   background: royalblue;
   border: 2px #333333 solid;
   border-bottom: 4px #333333 solid;
-  border-radius: .5rem;
-  width: 2rem;
-  height: 2rem;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
+  font-size: 2rem;
+  padding: 0 .5rem;
 }
 
 .rs-switcher:active {
@@ -203,18 +202,17 @@ p {
 
 .bus-number {
   display: inline-block;
-  /* width: 2rem; */
-  /* height: 2rem; */
-  /* border: 2px solid #000000; */
-  /* background: pink; */
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid black;
   color: black;
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: bold;
-  border-radius: 4px;
-  padding: 0 1rem;
+  border-radius: 10px;
+  /* padding: 0 .75rem; */
+  width: 3rem;
+  height: 3rem;
 }
 
 .trip-desc {
@@ -226,8 +224,11 @@ p {
 }
 
 .serv-btn-container {
-  display: grid;
-  grid-template-columns: repeat(4, max-content);
+  /* display: grid;
+  grid-template-columns: repeat(4, 25%); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .service-button {
@@ -237,8 +238,18 @@ p {
   border: 1px #333333 solid;
   border-bottom: 2px #333333 solid;
   border-radius: 4px;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .service-button:active {
   background: rgb(160, 190, 255);
+}
+
+.route-container {
+  padding: 3rem 0;
+}
+
+h3 {
+  margin: .75rem 0 0 2vw;
 }
