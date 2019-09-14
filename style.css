@@ -11,27 +11,21 @@ body {
   box-sizing: border-box;
   width: 100%;
   font-size: 100%;
-  padding: 10px;
+  padding: 4rem 0;
 }
 
-.bus-button {
-  display: inline-block;
-  text-decoration: none;
-  /* background-color: #004C5B; */
-  /* color: #ffffff; */
-  padding: 20px;
-  margin: 5px;
-}
 ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 10px;
+  padding: 1rem;
+  margin: 0;
 }
 
 li {
   flex: 1;
   list-style: none;
+  font-size: 1rem;
 }
 
 .hide {
@@ -48,40 +42,121 @@ li {
 tr>td:first-child {
   font-weight: bold;
 }
-th {
-  font-weight: normal;
-}
+
 table,
 td,
 th {
   border: 1px solid black;
   text-align: center;
   margin: 2px;
-  /* width: 100%; */
+  width: 100%;
 }
 th {
   background: black;
   color: white;
   padding: 5px;
+  font-weight: normal;
 }
 
-.routing {
-  display: inline-block;
-}
+
 
 .page {
   display: block;
-  border: 2px solid pink;
-  padding: 10px;
   margin: 5px;
 }
 
 .trip-div {
-  padding: 10px;
-  border: 2px red dotted;
+  padding: 1rem 0;
 }
 
 .table-div {
-  padding: 10px;
-  border: 2px purple dashed;
+  padding: 1rem 0;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom:0;
+  left: 0;
+  right: 0; 
+  background: black; 
+  color: white;
+  text-align: center;  
+}
+
+.top-bar {
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0; 
+  background: white; 
+  color: black;
+  /* box-shadow: 0px 0px 5px gray; */
+}
+
+h1 {
+  line-height: 1rem;
+}
+
+.bus-button {
+  /* display: inline-block; */
+  width: 20vw;
+  height: 20vw;
+  background: black;
+  margin: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: .2rem;
+}
+
+.bus-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h2 {
+  margin: 1.5rem 0 1rem 3vw;
+  font-size: 1.75rem;
+}
+
+#timetable-container {
+  margin-top: 1rem;
+  border: 1px solid black;
+}
+
+.routing {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#route-switcher {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+}
+
+.rs-origin {
+  text-align: right;
+}
+
+.rs-switcher {
+  /* border: 2px solid red; */
+  background-color: aquamarine;
+  border-bottom: 2px teal solid;
+  border-radius: .25rem;
+  margin: 0 1rem;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+}
+
+.rs-switcher:active {
+  background-color: rgb(173, 255, 228);
+}
+
+.rs-destination {
+  text-align: left;
 }
