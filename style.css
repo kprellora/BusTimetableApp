@@ -11,7 +11,6 @@ body {
   box-sizing: border-box;
   width: 100%;
   font-size: 100%;
-  padding: 4rem 0;
 }
 
 ul {
@@ -109,54 +108,95 @@ h1 {
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
-  border-radius: .2rem;
+  border-radius: 4px;
 }
 
 .bus-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 3rem 0;
 }
 
 h2 {
-  margin: 1.5rem 0 1rem 3vw;
+  margin: .75rem 0 .75rem 3vw;
   font-size: 1.75rem;
 }
 
 #timetable-container {
-  margin-top: 1rem;
-  border: 1px solid black;
+  padding: .4rem;
+  border: 1px solid lightgrey;
+  width: auto;
 }
 
 .routing {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
 #route-switcher {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 1fr min-content;
 }
 
-.rs-origin {
-  text-align: right;
+.rs-name {
+  text-align: left;
+  padding: .4rem;
+  line-height: auto;
+
 }
 
 .rs-switcher {
-  /* border: 2px solid red; */
-  background-color: aquamarine;
-  border-bottom: 2px teal solid;
-  border-radius: .25rem;
-  margin: 0 1rem;
-  width: 2rem;
-  height: 2rem;
-  text-align: center;
+  background: lightseagreen;
+  border: 2px #111111 solid;
+  border-bottom: 4px black solid;
+  border-radius: .5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  padding: .1rem .2rem .25rem .2rem;
 }
 
+.rs-switcher:hover,
 .rs-switcher:active {
-  background-color: rgb(173, 255, 228);
+  background: #222222;
+  border-block-color: #222222;
+  color: white;
 }
 
-.rs-destination {
-  text-align: left;
+p {
+  margin: .5rem 0;
+}
+
+.table-div {
+  overflow-x:auto;
+}
+
+.route-desc {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  margin-top: .75rem;
+}
+
+.bus-number {
+  display: inline-block;
+  width: 3.5rem;
+  height: 3.5rem;
+  /* border: 2px solid #000000; */
+  background: LightSeaGreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.trip-desc {
+  margin-left: .5rem;
+  justify-items: center;
+  font-size: .9rem;
+  font-style: italic;
 }

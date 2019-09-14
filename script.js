@@ -6,15 +6,16 @@ fetch("bus_data.json")
   listAllBuses(bus_data);
 });
 
+var bus_list_button = document.getElementById("bus-list");
+bus_list_button.addEventListener("click", function() {
+  buses_page.style.display = "Block";
+  timetables_page.style.display = "None";
+});
+
 var bus_container = document.getElementsByClassName("bus-container")[0];
 var buses_page = document.getElementById("buses-page");
 var timetables_page = document.getElementById("timetables-page");
 timetables_page.style.display = "None";
-var back_button = document.getElementsByClassName("back-button")[0];
-back_button.addEventListener("click", function() {
-  buses_page.style.display = "Block";
-  timetables_page.style.display = "None";
-});
 
 // create a button for each bus
 function listAllBuses(bus_data) {
@@ -43,40 +44,37 @@ function createTimetablePage(bus, trip = 0) { // using bus data
   var timetable_container = document.createElement("div");
   var info_container = document.createElement("div");
   var route_info = document.createElement("div");
+  var route_switcher = document.createElement("div");
+  var route_desc = document.createElement("div");
+  var name = document.createElement("div");
   var trip_container = document.createElement("div");
   timetable_container.id = "timetable-container";
   info_container.id = "info-container";
   route_info.id = "route-info";
+  route_switcher.id = "route-switcher";
+  route_desc.id = "route-desc";
+  route_desc.classList.add("route-desc");
+  name.id = "name";
+  name.classList.add("routing", "rs-name");
   trip_container.id = "trip-container";
   timetables_page.appendChild(timetable_container);
   timetable_container.appendChild(info_container);
   info_container.appendChild(route_info);
+  route_info.appendChild(route_switcher);
+  route_info.appendChild(route_desc);
+  route_switcher.appendChild(name);
   timetable_container.appendChild(trip_container);
-
-  // var timetable = (bus_data[0]["trips"][0]["services"][0]["timetable"]);
 
   // CREATE TIMETABLE INFO
   if (bus["trips"].length > 1) {
-    // create route switcher if bus has 2 trips (e.g. C->D, D->C)
-    var route_switcher = document.createElement("div");
-    var origin = document.createElement("div");
+    // create switcher if bus has 2 trips (e.g. C->D, D->C)
     var switcher = document.createElement("div");
-    var destination = document.createElement("div");
-    route_switcher.id = "route-switcher";
-    origin.id = "origin";
     switcher.id = "switcher";
-    destination.id = "destination";
-    origin.classList.add("routing", "rs-origin");
     switcher.classList.add("routing");
-    destination.classList.add("routing", "rs-destination");
-    route_info.appendChild(route_switcher);
-    route_switcher.appendChild(origin);
     route_switcher.appendChild(switcher);
-    route_switcher.appendChild(destination);
 
     // create route-switcher labels and button
-    origin.innerHTML = bus["trips"][trip]["origin"];
-    destination.innerHTML = bus["trips"][trip]["destination"];
+    name.innerHTML = bus["trips"][trip]["name"];
     var switch_button = document.createElement("div");
     switch_button.classList.add("rs-switcher");
     switch_button.innerHTML = "&#x21c4";
@@ -91,19 +89,21 @@ function createTimetablePage(bus, trip = 0) { // using bus data
         createTimetablePage(bus, trip = 0);
       }
     });
-
   // if bus has only one trip (e.g. C <-> C)
   } else {
     // just display the trip name in route_info
-    var p = document.createElement("p");
-    p.innerHTML = (bus["trips"][0]["origin"]+" to "+bus["trips"][0]["destination"]);
-    route_info.appendChild(p);
+    name.innerText = bus["trips"][0]["name"];
   }
 
   // show trip desc (i.e. via ...)
-  var trip_desc = document.createElement("p");
-  trip_desc.innerHTML = (bus["trips"][trip]["desc"]);
-  route_info.appendChild(trip_desc);
+  var trip_desc = document.createElement("div");
+  var bus_number = document.createElement("div");
+  route_desc.appendChild(bus_number);
+  route_desc.appendChild(trip_desc);
+  trip_desc.innerHTML = bus["trips"][trip]["desc"];
+  trip_desc.classList.add("trip-desc");
+  bus_number.classList.add("bus-number");
+  bus_number.innerHTML = bus["bus"];
 
   /*
       .---------------------------------.

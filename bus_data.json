@@ -2530,9 +2530,9 @@
     "colour": "",
     "trips": [
       {
-        "name": "",
-        "origin": "Darwin",
-        "destination": "Palmerston",
+        "name": "Palmerston to Palmerston",
+        "origin": "",
+        "destination": "",
         "services": [
           {
             "service": "",

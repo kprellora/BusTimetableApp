@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="style.css" />
-  <script src="https://kit.fontawesome.com/65a6292d6b.js"></script>
   <script defer src="script.js"></script>
   <title>Bus Timetable App</title>
 </head>
@@ -18,17 +17,14 @@
       </div>
   </div>
   <div id="timetables-page" class="hide page">
-      <div class="top-bar">
-        <h2><i class="fas fa-arrow-left back-button"></i></h2>
-      </div>
     <div id="timetable-container">
-      <div id="info-container">
+      <div id="info-container top-bar">
         <div id="route_info">
           <div id="route-switcher">
-            <div class="routing" id="origin"></div>
+            <div class="routing" id="name"></div>
             <div class="routing" id="switch"></div>
-            <div class="routing" id="destination"></div>
           </div>
+          <div class="route-desc"></div>
         </div>
       </div>
       <div id="trip-container"></div>
@@ -36,8 +32,8 @@
   </div>
   <div class="bottom-nav">
     <ul>
-      <li>Buses</li>
-      <li>Routes</li>
+      <li id="bus-list">Buses</li>
+      <li id="route-list">Routes</li>
     </ul>
   </div>
 </body>
