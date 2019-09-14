@@ -1,14 +1,161 @@
 [
   {
+    "bus": "1h",
+    "route": "Casuarina to northern suburbs and return",
+    "trips": [
+      {
+        "name": "Casuarina to Casuarina",
+        "desc": "via Hospital Precinct and Diabetes Australia Clinic",
+        "services": [
+          {
+            "service": "Mon-Fri",
+            "timetable": [
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "7:18",
+                "Hospital Precinct": "7:25",
+                "Diabetes Australia Clinic": "7:28",
+                "Casuarina Interchange.": "7:33"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "8:15",
+                "Hospital Precinct": "8:22",
+                "Diabetes Australia Clinic": "8:25",
+                "Casuarina Interchange.": "8:30"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "8:45",
+                "Hospital Precinct": "8:52",
+                "Diabetes Australia Clinic": "8:55",
+                "Casuarina Interchange.": "9:00"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "9:15",
+                "Hospital Precinct": "9:22",
+                "Diabetes Australia Clinic": "9:25",
+                "Casuarina Interchange.": "9:30"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "9:48",
+                "Hospital Precinct": "9:55",
+                "Diabetes Australia Clinic": "9:58",
+                "Casuarina Interchange.": "10:03"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "10:08",
+                "Hospital Precinct": "10:15",
+                "Diabetes Australia Clinic": "10:18",
+                "Casuarina Interchange.": "10:23"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "10:52",
+                "Hospital Precinct": "10:59",
+                "Diabetes Australia Clinic": "11:02",
+                "Casuarina Interchange.": "11:07"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "11:10",
+                "Hospital Precinct": "11:17",
+                "Diabetes Australia Clinic": "11:20",
+                "Casuarina Interchange.": "11:25"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "11:28",
+                "Hospital Precinct": "11:35",
+                "Diabetes Australia Clinic": "11:38",
+                "Casuarina Interchange.": "11:43"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "12:05",
+                "Hospital Precinct": "12:12",
+                "Diabetes Australia Clinic": "12:15",
+                "Casuarina Interchange.": "12:20"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "12:40",
+                "Hospital Precinct": "12:47",
+                "Diabetes Australia Clinic": "12:50",
+                "Casuarina Interchange.": "12:55"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "1:15",
+                "Hospital Precinct": "1:22",
+                "Diabetes Australia Clinic": "1:25",
+                "Casuarina Interchange.": "1:30"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "2:00",
+                "Hospital Precinct": "2:07",
+                "Diabetes Australia Clinic": "2:10",
+                "Casuarina Interchange.": "2:15"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "3:10",
+                "Hospital Precinct": "3:17",
+                "Diabetes Australia Clinic": "3:20",
+                "Casuarina Interchange.": "3:25"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "4:35",
+                "Hospital Precinct": "4:42",
+                "Diabetes Australia Clinic": "4:45",
+                "Casuarina Interchange.": "4:50"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "5:15",
+                "Hospital Precinct": "5:22",
+                "Diabetes Australia Clinic": "5:25",
+                "Casuarina Interchange.": "5:30"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "6:45",
+                "Hospital Precinct": "6:52",
+                "Diabetes Australia Clinic": "6:55",
+                "Casuarina Interchange.": "7:00"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "7:15",
+                "Hospital Precinct": "7:22",
+                "Diabetes Australia Clinic": "7:25",
+                "Casuarina Interchange.": "7:30"
+              },
+              {
+                "Major Stops": "1h",
+                "Casuarina Interchange": "9:30",
+                "Hospital Precinct": "9:40",
+                "Diabetes Australia Clinic": "9:43",
+                "Casuarina Interchange.": "9:50"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "bus": "4",
     "route": "Casuarina to Darwin and return",
-    "colour": "004C5B",
     "trips": [
       {
         "name": "Casuarina to Darwin",
         "desc": "via University, Alawa, Rapid Creek, Nightcliff and Fannie Bay",
-        "origin": "Casuarina",
-        "destination": "Darwin",
         "services": [
           {
             "service": "Mon-Fri",
@@ -1123,8 +1270,6 @@
       {
         "name": "Darwin to Casuarina",
         "desc": "via Fannie Bay, Nightcliff, Rapid Creek, Alawa and University",
-        "origin": "Darwin",
-        "destination": "Casuarina",
         "services" : [
           {
             "service": "Mon-Fri",
@@ -2247,13 +2392,10 @@
   {
     "bus": "6",
     "route": "Darwin to Darwin suburbs and return",
-    "colour": "004C5B",
     "trips": [
       {
         "name": "Darwin to Darwin",
         "desc": "via Museum, Museum and Parap",
-        "origin": "Darwin",
-        "destination": "Darwin",
         "services": [
           {
             "service": "Mon-Fri",
@@ -2355,13 +2497,10 @@
   {
     "bus": "7",
     "route": "Darwin to Darwin suburbs and return",
-    "colour": "004C5B",
     "trips": [
       {
         "name": "Darwin to Darwin",
         "desc": "via Stuart Park and Bayview",
-        "origin": "Darwin",
-        "destination": "Darwin",
         "services": [
           {
             "service": "Mon-Fri",
@@ -2461,20 +2600,1239 @@
     ]
   },
   {
-    "bus": "OL1",
-    "route": "Palmerston to Palmerston suburbs and return",
-    "desc": "",
-    "colour": "",
+    "bus": "9",
+    "route": "Casuarina to Palmerston and return",
     "trips": [
       {
-        "name": "",
-        "origin": "",
-        "destination": "",
+        "name": "Casuarina to Palmerston",
+        "desc": "via Karama, Berrimah and Pinelands",
         "services": [
           {
-            "service": "",
+            "service": "Mon-Fri",
             "timetable": [
-  
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "6:35",
+                "Hibiscus Shops": "6:39",
+                "Calytrix Rd": "6:42",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "6:50",
+                "Vanderlin Dr": "6:53",
+                "BP Palms": "6:59",
+                "Palmerston Interchange": "7:06"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "7:00",
+                "Hibiscus Shops": "7:04",
+                "Calytrix Rd": "7:07",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "7:15",
+                "Vanderlin Dr": "7:18",
+                "BP Palms": "7:24",
+                "Palmerston Interchange": "7:31"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "7:26",
+                "Hibiscus Shops": "7:30",
+                "Calytrix Rd": "7:33",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "7:41",
+                "Vanderlin Dr": "7:44",
+                "BP Palms": "7:50",
+                "Palmerston Interchange": "7:57"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "8:05",
+                "Hibiscus Shops": "8:09",
+                "Calytrix Rd": "8:12",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "8:20",
+                "Vanderlin Dr": "8:23",
+                "BP Palms": "8:29",
+                "Palmerston Interchange": "8:36"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "8:30",
+                "Hibiscus Shops": "8:34",
+                "Calytrix Rd": "8:37",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "8:45",
+                "Vanderlin Dr": "8:48",
+                "BP Palms": "8:54",
+                "Palmerston Interchange": "9:01"
+              },
+              {
+                "Major Stops": "9(e)",
+                "Casuarina Interchange": "9:00",
+                "Hibiscus Shops": "9:04",
+                "Calytrix Rd": "9:07",
+                "Crocodylus Park": "9:16",
+                "Berrimah Police Centre": "9:19",
+                "Vanderlin Dr": "9:22",
+                "BP Palms": "9:28",
+                "Palmerston Interchange": "9:34"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "9:30",
+                "Hibiscus Shops": "9:34",
+                "Calytrix Rd": "9:37",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "9:45",
+                "Vanderlin Dr": "9:48",
+                "BP Palms": "9:54",
+                "Palmerston Interchange": "10:00"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "10:05",
+                "Hibiscus Shops": "10:09",
+                "Calytrix Rd": "10:12",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "10:20",
+                "Vanderlin Dr": "10:23",
+                "BP Palms": "10:29",
+                "Palmerston Interchange": "10:35"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "10:35",
+                "Hibiscus Shops": "10:39",
+                "Calytrix Rd": "10:42",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "10:50",
+                "Vanderlin Dr": "10:53",
+                "BP Palms": "10:59",
+                "Palmerston Interchange": "11:05"
+              },
+              {
+                "Major Stops": "9(e)",
+                "Casuarina Interchange": "11:15",
+                "Hibiscus Shops": "11:19",
+                "Calytrix Rd": "11:22",
+                "Crocodylus Park": "11:31",
+                "Berrimah Police Centre": "11:34",
+                "Vanderlin Dr": "11:37",
+                "BP Palms": "11:43",
+                "Palmerston Interchange": "11:49"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "12:02",
+                "Hibiscus Shops": "12:06",
+                "Calytrix Rd": "12:09",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "12:17",
+                "Vanderlin Dr": "12:20",
+                "BP Palms": "12:26",
+                "Palmerston Interchange": "12:32"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "12:40",
+                "Hibiscus Shops": "12:44",
+                "Calytrix Rd": "12:47",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "12:55",
+                "Vanderlin Dr": "12:58",
+                "BP Palms": "1:04",
+                "Palmerston Interchange": "1:10"
+              },
+              {
+                "Major Stops": "9(e)",
+                "Casuarina Interchange": "1:15",
+                "Hibiscus Shops": "1:19",
+                "Calytrix Rd": "1:22",
+                "Crocodylus Park": "1:31",
+                "Berrimah Police Centre": "1:34",
+                "Vanderlin Dr": "1:37",
+                "BP Palms": "1:43",
+                "Palmerston Interchange": "1:49"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "1:55",
+                "Hibiscus Shops": "1:59",
+                "Calytrix Rd": "2:02",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "2:10",
+                "Vanderlin Dr": "2:13",
+                "BP Palms": "2:19",
+                "Palmerston Interchange": "2:25"
+              },
+              {
+                "Major Stops": "9(c)",
+                "Casuarina Interchange": "2:28",
+                "Hibiscus Shops": "....",
+                "Calytrix Rd": "2:43",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "2:51",
+                "Vanderlin Dr": "2:53",
+                "BP Palms": "3:00",
+                "Palmerston Interchange": "3:06"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "3:00",
+                "Hibiscus Shops": "3:04",
+                "Calytrix Rd": "3:07",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "3:15",
+                "Vanderlin Dr": "3:18",
+                "BP Palms": "3:24",
+                "Palmerston Interchange": "3:30"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "3:25",
+                "Hibiscus Shops": "3:29",
+                "Calytrix Rd": "3:32",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "3:40",
+                "Vanderlin Dr": "3:43",
+                "BP Palms": "3:49",
+                "Palmerston Interchange": "3:55"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "4:03",
+                "Hibiscus Shops": "4:07",
+                "Calytrix Rd": "4:10",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "4:18",
+                "Vanderlin Dr": "4:21",
+                "BP Palms": "4:27",
+                "Palmerston Interchange": "4:33"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "4:20",
+                "Hibiscus Shops": "4:24",
+                "Calytrix Rd": "4:27",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "4:35",
+                "Vanderlin Dr": "4:38",
+                "BP Palms": "4:44",
+                "Palmerston Interchange": "4:50"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "4:40",
+                "Hibiscus Shops": "4:44",
+                "Calytrix Rd": "4:47",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "4:55",
+                "Vanderlin Dr": "4:58",
+                "BP Palms": "5:04",
+                "Palmerston Interchange": "5:11"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "5:02",
+                "Hibiscus Shops": "5:06",
+                "Calytrix Rd": "5:09",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "5:17",
+                "Vanderlin Dr": "5:20",
+                "BP Palms": "5:26",
+                "Palmerston Interchange": "5:33"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "5:16",
+                "Hibiscus Shops": "5:20",
+                "Calytrix Rd": "5:23",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "5:31",
+                "Vanderlin Dr": "5:34",
+                "BP Palms": "5:40",
+                "Palmerston Interchange": "5:47"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "5:30",
+                "Hibiscus Shops": "5:34",
+                "Calytrix Rd": "5:37",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "5:45",
+                "Vanderlin Dr": "5:48",
+                "BP Palms": "5:54",
+                "Palmerston Interchange": "6:01"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "6:35",
+                "Hibiscus Shops": "6:39",
+                "Calytrix Rd": "6:42",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "6:50",
+                "Vanderlin Dr": "6:53",
+                "BP Palms": "6:59",
+                "Palmerston Interchange": "7:05"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "7:15",
+                "Hibiscus Shops": "7:19",
+                "Calytrix Rd": "7:22",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "7:30",
+                "Vanderlin Dr": "7:33",
+                "BP Palms": "7:39",
+                "Palmerston Interchange": "7:45"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "7:45",
+                "Hibiscus Shops": "7:49",
+                "Calytrix Rd": "7:52",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "8:00",
+                "Vanderlin Dr": "8:03",
+                "BP Palms": "8:09",
+                "Palmerston Interchange": "8:15"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "8:42",
+                "Hibiscus Shops": "8:46",
+                "Calytrix Rd": "8:49",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "8:57",
+                "Vanderlin Dr": "9:00",
+                "BP Palms": "9:06",
+                "Palmerston Interchange": "9:12"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "*9:13",
+                "Hibiscus Shops": "9:17",
+                "Calytrix Rd": "9:20",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "9:28",
+                "Vanderlin Dr": "9:31",
+                "BP Palms": "9:37",
+                "Palmerston Interchange": "9:43"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "*9:54",
+                "Hibiscus Shops": "9:58",
+                "Calytrix Rd": "10:01",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "10:09",
+                "Vanderlin Dr": "10:12",
+                "BP Palms": "10:18",
+                "Palmerston Interchange": "10:24"
+              }
+            ]
+          },
+          {
+            "service": "Thu night (Mindil B)",
+            "timetable": [
+              {
+                "Major Stops": "9(d)",
+                "Casuarina Interchange": "10:28",
+                "Hibiscus Shops": "10:32",
+                "Calytrix Rd": "10:35",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "10:44",
+                "Vanderlin Dr": "10:47",
+                "BP Palms": "....",
+                "Palmerston Interchange": "...."
+              },
+              {
+                "Major Stops": "9(d)",
+                "Casuarina Interchange": "10:53",
+                "Hibiscus Shops": "10:57",
+                "Calytrix Rd": "11:00",
+                "Crocodylus Park": "....",
+                "Berrimah Police Centre": "11:09",
+                "Vanderlin Dr": "11:12",
+                "BP Palms": "....",
+                "Palmerston Interchange": "...."
+              }
+            ]
+          },
+          {
+            "service": "Sat",
+            "timetable": [
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "7:00",
+                "Hibiscus Shops": "7:04",
+                "Calytrix Rd": "7:07",
+                "Police Centre": "7:15",
+                "Vanderlin Dr": "7:18",
+                "BP Palms": "7:24",
+                "Palmerston Interchange": "7:30"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "7:35",
+                "Hibiscus Shops": "7:39",
+                "Calytrix Rd": "7:42",
+                "Police Centre": "7:50",
+                "Vanderlin Dr": "7:53",
+                "BP Palms": "7:59",
+                "Palmerston Interchange": "8:05"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "8:40",
+                "Hibiscus Shops": "8:44",
+                "Calytrix Rd": "8:47",
+                "Police Centre": "8:55",
+                "Vanderlin Dr": "8:58",
+                "BP Palms": "9:04",
+                "Palmerston Interchange": "9:10"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "9:45",
+                "Hibiscus Shops": "9:59",
+                "Calytrix Rd": "9:52",
+                "Police Centre": "10:00",
+                "Vanderlin Dr": "10:03",
+                "BP Palms": "10:09",
+                "Palmerston Interchange": "10:15"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "10:50",
+                "Hibiscus Shops": "10:54",
+                "Calytrix Rd": "10:57",
+                "Police Centre": "11:05",
+                "Vanderlin Dr": "11:08",
+                "BP Palms": "11:14",
+                "Palmerston Interchange": "11:20"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "11:55",
+                "Hibiscus Shops": "11:59",
+                "Calytrix Rd": "12:02",
+                "Police Centre": "12:10",
+                "Vanderlin Dr": "12:13",
+                "BP Palms": "12:19",
+                "Palmerston Interchange": "12:25"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "1:00",
+                "Hibiscus Shops": "1:04",
+                "Calytrix Rd": "1:07",
+                "Police Centre": "1:15",
+                "Vanderlin Dr": "1:18",
+                "BP Palms": "1:34",
+                "Palmerston Interchange": "1:30"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "2:05",
+                "Hibiscus Shops": "2:09",
+                "Calytrix Rd": "2:12",
+                "Police Centre": "2:20",
+                "Vanderlin Dr": "2:23",
+                "BP Palms": "2:29",
+                "Palmerston Interchange": "2:35"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "3:10",
+                "Hibiscus Shops": "3:14",
+                "Calytrix Rd": "3:17",
+                "Police Centre": "3:25",
+                "Vanderlin Dr": "3:28",
+                "BP Palms": "3:34",
+                "Palmerston Interchange": "3:40"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "4:15",
+                "Hibiscus Shops": "4:19",
+                "Calytrix Rd": "4:22",
+                "Police Centre": "4:30",
+                "Vanderlin Dr": "4:33",
+                "BP Palms": "4:39",
+                "Palmerston Interchange": "4:45"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "5:20",
+                "Hibiscus Shops": "5:24",
+                "Calytrix Rd": "5:27",
+                "Police Centre": "5:35",
+                "Vanderlin Dr": "5:48",
+                "BP Palms": "5:44",
+                "Palmerston Interchange": "5:50"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "6:25",
+                "Hibiscus Shops": "6:29",
+                "Calytrix Rd": "6:32",
+                "Police Centre": "6:40",
+                "Vanderlin Dr": "6:43",
+                "BP Palms": "6:49",
+                "Palmerston Interchange": "6:55"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "7:30",
+                "Hibiscus Shops": "7:34",
+                "Calytrix Rd": "7:37",
+                "Police Centre": "7:45",
+                "Vanderlin Dr": "7:48",
+                "BP Palms": "7:54",
+                "Palmerston Interchange": "8:00"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "8:35",
+                "Hibiscus Shops": "8:39",
+                "Calytrix Rd": "8:42",
+                "Police Centre": "8:50",
+                "Vanderlin Dr": "8:53",
+                "BP Palms": "8:59",
+                "Palmerston Interchange": "9:05"
+              }
+            ]
+          },
+          {
+            "service": "Sun & PH",
+            "timetable": [
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "7:00",
+                "Hibiscus Shops": "7:04",
+                "Calytrix Rd": "7:07",
+                "Police Centre": "7:15",
+                "Vanderlin Dr": "7:18",
+                "BP Palms": "7:24",
+                "Palmerston Interchange": "7:30"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "7:35",
+                "Hibiscus Shops": "7:39",
+                "Calytrix Rd": "7:42",
+                "Police Centre": "7:50",
+                "Vanderlin Dr": "7:53",
+                "BP Palms": "7:59",
+                "Palmerston Interchange": "8:05"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "8:40",
+                "Hibiscus Shops": "8:44",
+                "Calytrix Rd": "8:47",
+                "Police Centre": "8:55",
+                "Vanderlin Dr": "8:58",
+                "BP Palms": "9:04",
+                "Palmerston Interchange": "9:10"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "9:45",
+                "Hibiscus Shops": "9:49",
+                "Calytrix Rd": "9:52",
+                "Police Centre": "10:00",
+                "Vanderlin Dr": "10:03",
+                "BP Palms": "10:09",
+                "Palmerston Interchange": "10:15"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "10:50",
+                "Hibiscus Shops": "10:54",
+                "Calytrix Rd": "10:57",
+                "Police Centre": "11:05",
+                "Vanderlin Dr": "11:08",
+                "BP Palms": "11:14",
+                "Palmerston Interchange": "11:20"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "11:55",
+                "Hibiscus Shops": "11:59",
+                "Calytrix Rd": "12:02",
+                "Police Centre": "12:10",
+                "Vanderlin Dr": "12:13",
+                "BP Palms": "12:19",
+                "Palmerston Interchange": "12:25"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "1:00",
+                "Hibiscus Shops": "1:04",
+                "Calytrix Rd": "1:07",
+                "Police Centre": "1:15",
+                "Vanderlin Dr": "1:18",
+                "BP Palms": "1:24",
+                "Palmerston Interchange": "1:30"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "2:05",
+                "Hibiscus Shops": "2:09",
+                "Calytrix Rd": "2:14",
+                "Police Centre": "2:20",
+                "Vanderlin Dr": "2:23",
+                "BP Palms": "2:29",
+                "Palmerston Interchange": "2:35"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "3:10",
+                "Hibiscus Shops": "3:14",
+                "Calytrix Rd": "3:17",
+                "Police Centre": "3:25",
+                "Vanderlin Dr": "3:28",
+                "BP Palms": "3:34",
+                "Palmerston Interchange": "3:40"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "4:15",
+                "Hibiscus Shops": "4:19",
+                "Calytrix Rd": "4:22",
+                "Police Centre": "4:30",
+                "Vanderlin Dr": "4:33",
+                "BP Palms": "4:39",
+                "Palmerston Interchange": "4:45"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "5:20",
+                "Hibiscus Shops": "5:24",
+                "Calytrix Rd": "5:27",
+                "Police Centre": "5:35",
+                "Vanderlin Dr": "5:38",
+                "BP Palms": "5:44",
+                "Palmerston Interchange": "5:50"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "6:25",
+                "Hibiscus Shops": "6:29",
+                "Calytrix Rd": "6:32",
+                "Police Centre": "6:40",
+                "Vanderlin Dr": "6:43",
+                "BP Palms": "6:49",
+                "Palmerston Interchange": "6:55"
+              },
+              {
+                "Major Stops": 9,
+                "Casuarina Interchange": "7:30",
+                "Hibiscus Shops": "7:34",
+                "Calytrix Rd": "7:37",
+                "Police Centre": "7:45",
+                "Vanderlin Dr": "7:48",
+                "BP Palms": "7:54",
+                "Palmerston Interchange": "8:00"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Palmerston to Casuarina",
+        "desc": "via Pinelands, Berrimah and Karama",
+        "services": [
+          {
+            "service": "Mon-Fri",
+            "timetable": [
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "5:45",
+                "BP Palms": "5:48",
+                "Pet Village": "5:54",
+                "Berrimah Police Centre": "5:57",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "6:05",
+                "Hibiscus Shops": "6:09",
+                "Casuarina Interchange": "6:16"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "6:35",
+                "BP Palms": "6:38",
+                "Pet Village": "6:44",
+                "Berrimah Police Centre": "6:47",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "6:55",
+                "Hibiscus Shops": "6:59",
+                "Casuarina Interchange": "7:06"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "7:02",
+                "BP Palms": "7:05",
+                "Pet Village": "7:11",
+                "Berrimah Police Centre": "7:14",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "7:22",
+                "Hibiscus Shops": "7:26",
+                "Casuarina Interchange": "7:33"
+              },
+              {
+                "Major Stops": "9(b)",
+                "Palmerston Interchange": "7:25",
+                "BP Palms": "7:28",
+                "Pet Village": "7:34",
+                "Berrimah Police Centre": "7:37",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "7:45",
+                "Hibiscus Shops": "....",
+                "Casuarina Interchange": "8:04"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "8:05",
+                "BP Palms": "8:08",
+                "Pet Village": "8:14",
+                "Berrimah Police Centre": "8:17",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "8:25",
+                "Hibiscus Shops": "8:29",
+                "Casuarina Interchange": "8:36"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "8:30",
+                "BP Palms": "8:33",
+                "Pet Village": "8:39",
+                "Berrimah Police Centre": "8:42",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "8:50",
+                "Hibiscus Shops": "8:54",
+                "Casuarina Interchange": "9:01"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "9:00",
+                "BP Palms": "9:03",
+                "Pet Village": "9:09",
+                "Berrimah Police Centre": "9:12",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "9:20",
+                "Hibiscus Shops": "9:24",
+                "Casuarina Interchange": "9:30"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "9:10",
+                "BP Palms": "9:13",
+                "Pet Village": "9:19",
+                "Berrimah Police Centre": "9:22",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "9:30",
+                "Hibiscus Shops": "9:34",
+                "Casuarina Interchange": "9:40"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "9:40",
+                "BP Palms": "9:43",
+                "Pet Village": "9:49",
+                "Berrimah Police Centre": "9:52",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "10:00",
+                "Hibiscus Shops": "10:04",
+                "Casuarina Interchange": "10:10"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "10:25",
+                "BP Palms": "10:28",
+                "Pet Village": "10:34",
+                "Berrimah Police Centre": "10:37",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "10:45",
+                "Hibiscus Shops": "10:49",
+                "Casuarina Interchange": "10:55"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "11:03",
+                "BP Palms": "11:06",
+                "Pet Village": "11:12",
+                "Berrimah Police Centre": "11:15",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "11:23",
+                "Hibiscus Shops": "11:27",
+                "Casuarina Interchange": "11:33"
+              },
+              {
+                "Major Stops": "9(e)",
+                "Palmerston Interchange": "11:41",
+                "BP Palms": "11:44",
+                "Pet Village": "11:50",
+                "Berrimah Police Centre": "11:53",
+                "Crocodylus Park": "11:56",
+                "Calytrix Rd": "12:05",
+                "Hibiscus Shops": "12:09",
+                "Casuarina Interchange": "12:15"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "12:19",
+                "BP Palms": "12:22",
+                "Pet Village": "12:28",
+                "Berrimah Police Centre": "12:31",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "12:39",
+                "Hibiscus Shops": "12:43",
+                "Casuarina Interchange": "12:49"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "12:57",
+                "BP Palms": "1:00",
+                "Pet Village": "1:06",
+                "Berrimah Police Centre": "1:09",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "1:17",
+                "Hibiscus Shops": "1:21",
+                "Casuarina Interchange": "1:27"
+              },
+              {
+                "Major Stops": "9(e)",
+                "Palmerston Interchange": "1:35",
+                "BP Palms": "1:38",
+                "Pet Village": "1:44",
+                "Berrimah Police Centre": "1:47",
+                "Crocodylus Park": "1:50",
+                "Calytrix Rd": "1:59",
+                "Hibiscus Shops": "2:03",
+                "Casuarina Interchange": "2:09"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "2:10",
+                "BP Palms": "2:13",
+                "Pet Village": "2:19",
+                "Berrimah Police Centre": "2:22",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "2:30",
+                "Hibiscus Shops": "2:34",
+                "Casuarina Interchange": "2:40"
+              },
+              {
+                "Major Stops": "9(e)",
+                "Palmerston Interchange": "3:00",
+                "BP Palms": "3:03",
+                "Pet Village": "3:09",
+                "Berrimah Police Centre": "3:12",
+                "Crocodylus Park": "3:15",
+                "Calytrix Rd": "3:24",
+                "Hibiscus Shops": "3:28",
+                "Casuarina Interchange": "3:34"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "3:35",
+                "BP Palms": "3:38",
+                "Pet Village": "3:44",
+                "Berrimah Police Centre": "3:47",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "3:55",
+                "Hibiscus Shops": "3:59",
+                "Casuarina Interchange": "4:05"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "4:05",
+                "BP Palms": "4:08",
+                "Pet Village": "4:14",
+                "Berrimah Police Centre": "4:17",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "4:25",
+                "Hibiscus Shops": "4:29",
+                "Casuarina Interchange": "4:36"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "4:35",
+                "BP Palms": "4:38",
+                "Pet Village": "4:44",
+                "Berrimah Police Centre": "4:47",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "4:55",
+                "Hibiscus Shops": "4:59",
+                "Casuarina Interchange": "5:06"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "5:00",
+                "BP Palms": "5:03",
+                "Pet Village": "5:09",
+                "Berrimah Police Centre": "5:12",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "5:20",
+                "Hibiscus Shops": "5:24",
+                "Casuarina Interchange": "5:31"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "5:35",
+                "BP Palms": "5:38",
+                "Pet Village": "5:44",
+                "Berrimah Police Centre": "5:47",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "5:55",
+                "Hibiscus Shops": "5:59",
+                "Casuarina Interchange": "6:06"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "6:35",
+                "BP Palms": "6:38",
+                "Pet Village": "6:44",
+                "Berrimah Police Centre": "6:47",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "6:55",
+                "Hibiscus Shops": "6:59",
+                "Casuarina Interchange": "7:05"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "7:16",
+                "BP Palms": "7:19",
+                "Pet Village": "7:25",
+                "Berrimah Police Centre": "7:28",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "7:36",
+                "Hibiscus Shops": "7:40",
+                "Casuarina Interchange": "7:46"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "7:55",
+                "BP Palms": "7:58",
+                "Pet Village": "8:04",
+                "Berrimah Police Centre": "8:07",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "8:15",
+                "Hibiscus Shops": "8:19",
+                "Casuarina Interchange": "8:25"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "9:32",
+                "BP Palms": "9:35",
+                "Pet Village": "9:41",
+                "Berrimah Police Centre": "9:44",
+                "Crocodylus Park": "....",
+                "Calytrix Rd": "9:52",
+                "Hibiscus Shops": "9:56",
+                "Casuarina Interchange": "10:02"
+              }
+            ]
+          },
+          {
+            "service": "Sat",
+            "timetable": [
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "6:50",
+                "BP Palms": "6:53",
+                "Pet Village": "6:59",
+                "Berrimah Police Centre": "7:02",
+                "Calytrix Rd": "7:10",
+                "Hibiscus Shops": "7:14",
+                "Casuarina Interchange": "7:20"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "7:15",
+                "BP Palms": "7:18",
+                "Pet Village": "7:24",
+                "Berrimah Police Centre": "7:27",
+                "Calytrix Rd": "7:35",
+                "Hibiscus Shops": "7:39",
+                "Casuarina Interchange": "7:45"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "8:15",
+                "BP Palms": "8:18",
+                "Pet Village": "8:24",
+                "Berrimah Police Centre": "8:27",
+                "Calytrix Rd": "8:35",
+                "Hibiscus Shops": "8:39",
+                "Casuarina Interchange": "8:45"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "8:50",
+                "BP Palms": "8:53",
+                "Pet Village": "8:59",
+                "Berrimah Police Centre": "9:02",
+                "Calytrix Rd": "9:10",
+                "Hibiscus Shops": "9:14",
+                "Casuarina Interchange": "9:20"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "9:55",
+                "BP Palms": "9:58",
+                "Pet Village": "10:04",
+                "Berrimah Police Centre": "10:07",
+                "Calytrix Rd": "10:15",
+                "Hibiscus Shops": "10:19",
+                "Casuarina Interchange": "10:25"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "11:00",
+                "BP Palms": "11:03",
+                "Pet Village": "11:09",
+                "Berrimah Police Centre": "11:12",
+                "Calytrix Rd": "11:20",
+                "Hibiscus Shops": "11:24",
+                "Casuarina Interchange": "11:30"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "12:05",
+                "BP Palms": "12:08",
+                "Pet Village": "12:14",
+                "Berrimah Police Centre": "12:17",
+                "Calytrix Rd": "12:25",
+                "Hibiscus Shops": "12:29",
+                "Casuarina Interchange": "12:35"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "1:10",
+                "BP Palms": "1:13",
+                "Pet Village": "1:19",
+                "Berrimah Police Centre": "1:22",
+                "Calytrix Rd": "1:30",
+                "Hibiscus Shops": "1:34",
+                "Casuarina Interchange": "1:40"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "2:15",
+                "BP Palms": "2:18",
+                "Pet Village": "2:24",
+                "Berrimah Police Centre": "2:27",
+                "Calytrix Rd": "2:35",
+                "Hibiscus Shops": "2:39",
+                "Casuarina Interchange": "2:45"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "3:20",
+                "BP Palms": "3:23",
+                "Pet Village": "3:29",
+                "Berrimah Police Centre": "3:32",
+                "Calytrix Rd": "3:40",
+                "Hibiscus Shops": "3:44",
+                "Casuarina Interchange": "3:50"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "4:25",
+                "BP Palms": "4:28",
+                "Pet Village": "4:34",
+                "Berrimah Police Centre": "4:37",
+                "Calytrix Rd": "4:45",
+                "Hibiscus Shops": "4:49",
+                "Casuarina Interchange": "4:55"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "5:30",
+                "BP Palms": "5:33",
+                "Pet Village": "5:39",
+                "Berrimah Police Centre": "5:42",
+                "Calytrix Rd": "5:50",
+                "Hibiscus Shops": "5:54",
+                "Casuarina Interchange": "6:00"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "6:35",
+                "BP Palms": "6:38",
+                "Pet Village": "6:44",
+                "Berrimah Police Centre": "6:47",
+                "Calytrix Rd": "6:55",
+                "Hibiscus Shops": "6:59",
+                "Casuarina Interchange": "7:05"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "7:40",
+                "BP Palms": "7:43",
+                "Pet Village": "7:49",
+                "Berrimah Police Centre": "7:52",
+                "Calytrix Rd": "8:00",
+                "Hibiscus Shops": "8:04",
+                "Casuarina Interchange": "8:10"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "8:45",
+                "BP Palms": "8:48",
+                "Pet Village": "8:54",
+                "Berrimah Police Centre": "9:57",
+                "Calytrix Rd": "9:05",
+                "Hibiscus Shops": "9:09",
+                "Casuarina Interchange": "9:15"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "9:50",
+                "BP Palms": "9:53",
+                "Pet Village": "10:59",
+                "Berrimah Police Centre": "10:02",
+                "Calytrix Rd": "10:10",
+                "Hibiscus Shops": "10:14",
+                "Casuarina Interchange": "10:20"
+              }
+            ]
+          },
+          {
+            "service": "Sun & PH",
+            "timetable": [
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "7:15",
+                "BP Palms": "7:18",
+                "Pet Village": "7:24",
+                "Berrimah Police Centre": "7:27",
+                "Calytrix Rd": "7:35",
+                "Hibiscus Shops": "7:39",
+                "Casuarina Interchange": "7:45"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "8:15",
+                "BP Palms": "8:18",
+                "Pet Village": "8:24",
+                "Berrimah Police Centre": "8:27",
+                "Calytrix Rd": "8:35",
+                "Hibiscus Shops": "8:39",
+                "Casuarina Interchange": "8:45"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "8:50",
+                "BP Palms": "8:53",
+                "Pet Village": "8:59",
+                "Berrimah Police Centre": "9:02",
+                "Calytrix Rd": "9:10",
+                "Hibiscus Shops": "9:14",
+                "Casuarina Interchange": "9:20"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "9:55",
+                "BP Palms": "9:58",
+                "Pet Village": "10:04",
+                "Berrimah Police Centre": "10:07",
+                "Calytrix Rd": "10:15",
+                "Hibiscus Shops": "10:19",
+                "Casuarina Interchange": "10:25"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "11:00",
+                "BP Palms": "11:03",
+                "Pet Village": "11:09",
+                "Berrimah Police Centre": "11:12",
+                "Calytrix Rd": "11:20",
+                "Hibiscus Shops": "11:24",
+                "Casuarina Interchange": "11:30"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "12:05",
+                "BP Palms": "12:08",
+                "Pet Village": "12:14",
+                "Berrimah Police Centre": "12:17",
+                "Calytrix Rd": "12:25",
+                "Hibiscus Shops": "12:29",
+                "Casuarina Interchange": "12:35"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "1:10",
+                "BP Palms": "1:13",
+                "Pet Village": "1:19",
+                "Berrimah Police Centre": "1:22",
+                "Calytrix Rd": "1:30",
+                "Hibiscus Shops": "1:34",
+                "Casuarina Interchange": "1:40"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "2:15",
+                "BP Palms": "2:18",
+                "Pet Village": "2:24",
+                "Berrimah Police Centre": "2:27",
+                "Calytrix Rd": "2:35",
+                "Hibiscus Shops": "2:39",
+                "Casuarina Interchange": "2:45"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "3:20",
+                "BP Palms": "3:23",
+                "Pet Village": "3:29",
+                "Berrimah Police Centre": "3:32",
+                "Calytrix Rd": "3:40",
+                "Hibiscus Shops": "3:44",
+                "Casuarina Interchange": "3:50"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "4:25",
+                "BP Palms": "4:28",
+                "Pet Village": "4:34",
+                "Berrimah Police Centre": "4:37",
+                "Calytrix Rd": "4:45",
+                "Hibiscus Shops": "4:49",
+                "Casuarina Interchange": "4:55"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "5:30",
+                "BP Palms": "5:33",
+                "Pet Village": "5:39",
+                "Berrimah Police Centre": "5:42",
+                "Calytrix Rd": "5:50",
+                "Hibiscus Shops": "5:54",
+                "Casuarina Interchange": "6:00"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "6:35",
+                "BP Palms": "6:38",
+                "Pet Village": "6:44",
+                "Berrimah Police Centre": "6:47",
+                "Calytrix Rd": "6:55",
+                "Hibiscus Shops": "6:59",
+                "Casuarina Interchange": "7:05"
+              },
+              {
+                "Major Stops": 9,
+                "Palmerston Interchange": "7:40",
+                "BP Palms": "7:43",
+                "Pet Village": "7:49",
+                "Berrimah Police Centre": "7:52",
+                "Calytrix Rd": "8:00",
+                "Hibiscus Shops": "8:04",
+                "Casuarina Interchange": "8:10"
+              }
             ]
           }
         ]
@@ -2482,20 +3840,118 @@
     ]
   },
   {
-    "bus": "450",
-    "route": "Rural areas to Palmerston and return",
-    "desc": "",
-    "colour": "",
+    "bus": "15",
+    "route": "Mindil Beach sunset market",
     "trips": [
       {
-        "name": "",
-        "origin": "",
-        "destination": "",
+        "name": "Darwin to Mindil Beach Sunset Market",
+        "desc": "via Mitchell St (and return)",
         "services": [
           {
-            "service": "",
+            "service": "Thursday market days only",
             "timetable": [
-  
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "4:40",
+                "Mindil Beach Market": "4:50",
+                "Darwin Interchange.": "5:00"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "5:00",
+                "Mindil Beach Market": "5:10",
+                "Darwin Interchange.": "5:20"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "5:20",
+                "Mindil Beach Market": "5:30",
+                "Darwin Interchange.": "5:40"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "5:40",
+                "Mindil Beach Market": "5:50",
+                "Darwin Interchange.": "6:00"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "6:00",
+                "Mindil Beach Market": "6:10",
+                "Darwin Interchange.": "6:20"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "6:20",
+                "Mindil Beach Market": "6:30",
+                "Darwin Interchange.": "6:40"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "6:40",
+                "Mindil Beach Market": "6:50",
+                "Darwin Interchange.": "7:00"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "7:00",
+                "Mindil Beach Market": "7:10",
+                "Darwin Interchange.": "7:20"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "7:20",
+                "Mindil Beach Market": "7:30",
+                "Darwin Interchange.": "7:40"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "7:40",
+                "Mindil Beach Market": "7:50",
+                "Darwin Interchange.": "8:00"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "8:00",
+                "Mindil Beach Market": "8:10",
+                "Darwin Interchange.": "8:20"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "8:20",
+                "Mindil Beach Market": "8:30",
+                "Darwin Interchange.": "8:40"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "8:40",
+                "Mindil Beach Market": "8:50",
+                "Darwin Interchange.": "9:00"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "9:00",
+                "Mindil Beach Market": "9:10",
+                "Darwin Interchange.": "9:20"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "9:20",
+                "Mindil Beach Market": "9:30",
+                "Darwin Interchange.": "9:40"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "9:40",
+                "Mindil Beach Market": "9:50",
+                "Darwin Interchange.": "10:00"
+              },
+              {
+                "Major Stops": 15,
+                "Darwin Interchange": "10:00",
+                "Mindil Beach Market": "10:10",
+                "Darwin Interchange.": "10:20"
+              }
             ]
           }
         ]
@@ -2505,18 +3961,67 @@
   {
     "bus": "28",
     "route": "Darwin to Palmerston and return",
-    "desc": "",
-    "colour": "",
     "trips": [
       {
-        "name": "",
-        "origin": "",
-        "destination": "",
+        "name": "Humpty Doo Park and Ride to Darwin",
+        "desc": "via Coolalinga Park and Ride and Palmerston",
         "services": [
           {
-            "service": "",
+            "service": "Mon-Fri",
             "timetable": [
-  
+              {
+                "Major Stops": 28,
+                "Humpty Doo Park and Ride": "6:05",
+                "Coolalinga Park and Ride": "6:15",
+                "Palmerston Interchange": "6:30",
+                "Darwin Interchange": "6:55"
+              },
+              {
+                "Major Stops": 28,
+                "Humpty Doo Park and Ride": "7:00",
+                "Coolalinga Park and Ride": "7:10",
+                "Palmerston Interchange": "7:25",
+                "Darwin Interchange": "7:55"
+              },
+              {
+                "Major Stops": 28,
+                "Humpty Doo Park and Ride": "7:30",
+                "Coolalinga Park and Ride": "7:40",
+                "Palmerston Interchange": "7:55",
+                "Darwin Interchange": "8:22"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Darwin to Humpty Doo Park and Ride",
+        "desc": "via Palmerston and Coolalinga Park and Ride",
+        "services": [
+          {
+            "service": "Mon-Fri",
+            "timetable": [
+              {
+                "Major Stops": 28,
+                "Darwin Interchange": "4:30",
+                "Palmerston Interchange": "5:00",
+                "Coolalinga Park and Ride": "5:15",
+                "Humpty Doo Park and Ride": "5:25"
+              },
+              {
+                "Major Stops": 28,
+                "Darwin Interchange": "5:00",
+                "Palmerston Interchange": "5:30",
+                "Coolalinga Park and Ride": "5:45",
+                "Humpty Doo Park and Ride": "5:55"
+              },
+              {
+                "Major Stops": 28,
+                "Darwin Interchange": "5:30",
+                "Palmerston Interchange": "6:00",
+                "Coolalinga Park and Ride": "6:15",
+                "Humpty Doo Park and Ride": "6:25"
+              }              
             ]
           }
         ]
@@ -2524,20 +4029,596 @@
     ]
   },
   {
-    "bus": "OL2",
-    "route": "Casuarina to Palmerston and return",
-    "desc": "",
-    "colour": "",
+    "bus": "70",
+    "route": "Palmerston to Palmerston suburbs and return",
     "trips": [
       {
         "name": "Palmerston to Palmerston",
-        "origin": "",
-        "destination": "",
+        "desc": "via Driver and Moulden",
         "services": [
           {
-            "service": "",
+            "service": "Mon-Fri",
             "timetable": [
-  
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "5:55",
+                "Coles": "5:58",
+                "Driver Av Shops": "6:00",
+                "Bonson Terrace": "6:07",
+                "Kafcaloudes Cres": "6:12",
+                "Driver Av Shops.": "6:18",
+                "Palmerston Interchange.": "6:27"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "6:40",
+                "Coles": "6:43",
+                "Driver Av Shops": "6:45",
+                "Bonson Terrace": "6:52",
+                "Kafcaloudes Cres": "6:57",
+                "Driver Av Shops.": "7:03",
+                "Palmerston Interchange.": "7:12"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "7:20",
+                "Coles": "7:23",
+                "Driver Av Shops": "7:25",
+                "Bonson Terrace": "7:32",
+                "Kafcaloudes Cres": "7:37",
+                "Driver Av Shops.": "7:43",
+                "Palmerston Interchange.": "7:55"
+              },
+              {
+                "Major Stops": "70(b)",
+                "Palmerston Interchange": "8:07",
+                "Coles": "8:10",
+                "Driver Av Shops": "8:12",
+                "Bonson Terrace": "8:19",
+                "Kafcaloudes Cres": "8:24",
+                "Driver Av Shops.": "8:30",
+                "Palmerston Interchange.": "8:42"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "8:35",
+                "Coles": "8:38",
+                "Driver Av Shops": "8:40",
+                "Bonson Terrace": "8:47",
+                "Kafcaloudes Cres": "8:52",
+                "Driver Av Shops.": "8:58",
+                "Palmerston Interchange.": "9:07"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "9:02",
+                "Coles": "9:05",
+                "Driver Av Shops": "9:07",
+                "Bonson Terrace": "9:14",
+                "Kafcaloudes Cres": "9:19",
+                "Driver Av Shops.": "9:25",
+                "Palmerston Interchange.": "9:34"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "9:44",
+                "Coles": "9:47",
+                "Driver Av Shops": "9:49",
+                "Bonson Terrace": "9:56",
+                "Kafcaloudes Cres": "10:01",
+                "Driver Av Shops.": "10:07",
+                "Palmerston Interchange.": "10:16"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "10:08",
+                "Coles": "10:11",
+                "Driver Av Shops": "10:13",
+                "Bonson Terrace": "10:20",
+                "Kafcaloudes Cres": "10:25",
+                "Driver Av Shops.": "10:31",
+                "Palmerston Interchange.": "10:40"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "10:55",
+                "Coles": "10:58",
+                "Driver Av Shops": "11:00",
+                "Bonson Terrace": "11:07",
+                "Kafcaloudes Cres": "11:12",
+                "Driver Av Shops.": "11:18",
+                "Palmerston Interchange.": "11:27"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "11:40",
+                "Coles": "11:43",
+                "Driver Av Shops": "11:45",
+                "Bonson Terrace": "11:52",
+                "Kafcaloudes Cres": "11:57",
+                "Driver Av Shops.": "12:03",
+                "Palmerston Interchange.": "12:12"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "12:05",
+                "Coles": "12:08",
+                "Driver Av Shops": "12:10",
+                "Bonson Terrace": "12:17",
+                "Kafcaloudes Cres": "12:22",
+                "Driver Av Shops.": "12:28",
+                "Palmerston Interchange.": "12:37"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "12:45",
+                "Coles": "12:48",
+                "Driver Av Shops": "12:50",
+                "Bonson Terrace": "12:57",
+                "Kafcaloudes Cres": "1:02",
+                "Driver Av Shops.": "1:08",
+                "Palmerston Interchange.": "1:17"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "1:35",
+                "Coles": "1:38",
+                "Driver Av Shops": "1:40",
+                "Bonson Terrace": "1:47",
+                "Kafcaloudes Cres": "1:52",
+                "Driver Av Shops.": "1:58",
+                "Palmerston Interchange.": "2:07"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "2:10",
+                "Coles": "2:13",
+                "Driver Av Shops": "2:15",
+                "Bonson Terrace": "2:22",
+                "Kafcaloudes Cres": "2:27",
+                "Driver Av Shops.": "2:33",
+                "Palmerston Interchange.": "2:44"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "2:45",
+                "Coles": "2:48",
+                "Driver Av Shops": "2:50",
+                "Bonson Terrace": "2:57",
+                "Kafcaloudes Cres": "3:02",
+                "Driver Av Shops.": "3:08",
+                "Palmerston Interchange.": "3:24"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "3:32",
+                "Coles": "3:35",
+                "Driver Av Shops": "3:37",
+                "Bonson Terrace": "3:44",
+                "Kafcaloudes Cres": "3:49",
+                "Driver Av Shops.": "3:55",
+                "Palmerston Interchange.": "4:04"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "3:45",
+                "Coles": "3:48",
+                "Driver Av Shops": "3:50",
+                "Bonson Terrace": "3:57",
+                "Kafcaloudes Cres": "4:02",
+                "Driver Av Shops.": "4:08",
+                "Palmerston Interchange.": "4:17"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "4:07",
+                "Coles": "4:10",
+                "Driver Av Shops": "4:12",
+                "Bonson Terrace": "4:19",
+                "Kafcaloudes Cres": "4:24",
+                "Driver Av Shops.": "4:30",
+                "Palmerston Interchange.": "4:39"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "4:20",
+                "Coles": "4:23",
+                "Driver Av Shops": "4:25",
+                "Bonson Terrace": "4:32",
+                "Kafcaloudes Cres": "4:37",
+                "Driver Av Shops.": "4:43",
+                "Palmerston Interchange.": "4:52"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "4:48",
+                "Coles": "4:51",
+                "Driver Av Shops": "4:53",
+                "Bonson Terrace": "5:00",
+                "Kafcaloudes Cres": "5:05",
+                "Driver Av Shops.": "5:11",
+                "Palmerston Interchange.": "5:20"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "5:05",
+                "Coles": "5:08",
+                "Driver Av Shops": "5:10",
+                "Bonson Terrace": "5:17",
+                "Kafcaloudes Cres": "5:22",
+                "Driver Av Shops.": "5:28",
+                "Palmerston Interchange.": "5:37"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "5:34",
+                "Coles": "5:37",
+                "Driver Av Shops": "5:39",
+                "Bonson Terrace": "5:46",
+                "Kafcaloudes Cres": "5:51",
+                "Driver Av Shops.": "5:57",
+                "Palmerston Interchange.": "6:06"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "6:00",
+                "Coles": "6:03",
+                "Driver Av Shops": "6:05",
+                "Bonson Terrace": "6:12",
+                "Kafcaloudes Cres": "6:17",
+                "Driver Av Shops.": "6:23",
+                "Palmerston Interchange.": "6:32"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "6:37",
+                "Coles": "6:40",
+                "Driver Av Shops": "6:42",
+                "Bonson Terrace": "6:49",
+                "Kafcaloudes Cres": "6:54",
+                "Driver Av Shops.": "7:00",
+                "Palmerston Interchange.": "7:09"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "7:20",
+                "Coles": "7:23",
+                "Driver Av Shops": "7:25",
+                "Bonson Terrace": "7:32",
+                "Kafcaloudes Cres": "7:37",
+                "Driver Av Shops.": "7:43",
+                "Palmerston Interchange.": "7:51"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "8:10",
+                "Coles": "8:13",
+                "Driver Av Shops": "8:15",
+                "Bonson Terrace": "8:22",
+                "Kafcaloudes Cres": "8:27",
+                "Driver Av Shops.": "8:33",
+                "Palmerston Interchange.": "8:41"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "8:48",
+                "Coles": "8:51",
+                "Driver Av Shops": "8:53",
+                "Bonson Terrace": "9:00",
+                "Kafcaloudes Cres": "9:05",
+                "Driver Av Shops.": "9:11",
+                "Palmerston Interchange.": "9:19"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "9:22",
+                "Coles": "9:25",
+                "Driver Av Shops": "9:27",
+                "Bonson Terrace": "9:34",
+                "Kafcaloudes Cres": "9:39",
+                "Driver Av Shops.": "9:45",
+                "Palmerston Interchange.": "9:53"
+              }
+            ]
+          },
+          {
+            "service": "Sat",
+            "timetable": [
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "6:00",
+                "Coles": "6:03",
+                "Driver Av Shops": "6:05",
+                "Bonson Terrace": "6:12",
+                "Kafcaloudes Cres": "6:17",
+                "Driver Av Shops.": "6:23",
+                "Palmerston Interchange.": "6:32"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "6:40",
+                "Coles": "6:43",
+                "Driver Av Shops": "6:45",
+                "Bonson Terrace": "6:52",
+                "Kafcaloudes Cres": "6:57",
+                "Driver Av Shops.": "7:03",
+                "Palmerston Interchange.": "7:12"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "7:40",
+                "Coles": "7:43",
+                "Driver Av Shops": "7:45",
+                "Bonson Terrace": "7:52",
+                "Kafcaloudes Cres": "7:57",
+                "Driver Av Shops.": "8:03",
+                "Palmerston Interchange.": "8:12"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "8:15",
+                "Coles": "8:18",
+                "Driver Av Shops": "8:20",
+                "Bonson Terrace": "8:27",
+                "Kafcaloudes Cres": "8:32",
+                "Driver Av Shops.": "8:38",
+                "Palmerston Interchange.": "8:47"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "9:20",
+                "Coles": "9:23",
+                "Driver Av Shops": "9:25",
+                "Bonson Terrace": "9:32",
+                "Kafcaloudes Cres": "9:37",
+                "Driver Av Shops.": "9:43",
+                "Palmerston Interchange.": "9:52"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "10:25",
+                "Coles": "10:28",
+                "Driver Av Shops": "10:30",
+                "Bonson Terrace": "10:37",
+                "Kafcaloudes Cres": "10:42",
+                "Driver Av Shops.": "10:48",
+                "Palmerston Interchange.": "10:57"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "11:30",
+                "Coles": "11:33",
+                "Driver Av Shops": "11:35",
+                "Bonson Terrace": "11:42",
+                "Kafcaloudes Cres": "11:47",
+                "Driver Av Shops.": "11:53",
+                "Palmerston Interchange.": "12:02"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "12:35",
+                "Coles": "12:38",
+                "Driver Av Shops": "12:40",
+                "Bonson Terrace": "12:47",
+                "Kafcaloudes Cres": "12:52",
+                "Driver Av Shops.": "12:58",
+                "Palmerston Interchange.": "1:07"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "1:40",
+                "Coles": "1:43",
+                "Driver Av Shops": "1:45",
+                "Bonson Terrace": "1:52",
+                "Kafcaloudes Cres": "1:57",
+                "Driver Av Shops.": "2:03",
+                "Palmerston Interchange.": "2:12"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "2:45",
+                "Coles": "2:48",
+                "Driver Av Shops": "2:50",
+                "Bonson Terrace": "2:57",
+                "Kafcaloudes Cres": "3:02",
+                "Driver Av Shops.": "3:08",
+                "Palmerston Interchange.": "3:17"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "3:50",
+                "Coles": "3:53",
+                "Driver Av Shops": "3:55",
+                "Bonson Terrace": "4:02",
+                "Kafcaloudes Cres": "4:07",
+                "Driver Av Shops.": "4:13",
+                "Palmerston Interchange.": "4:22"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "4:55",
+                "Coles": "4:58",
+                "Driver Av Shops": "5:00",
+                "Bonson Terrace": "5:07",
+                "Kafcaloudes Cres": "5:12",
+                "Driver Av Shops.": "5:18",
+                "Palmerston Interchange.": "5:27"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "6:00",
+                "Coles": "6:03",
+                "Driver Av Shops": "6:05",
+                "Bonson Terrace": "6:12",
+                "Kafcaloudes Cres": "6:17",
+                "Driver Av Shops.": "6:23",
+                "Palmerston Interchange.": "6:32"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "7:05",
+                "Coles": "7:08",
+                "Driver Av Shops": "7:10",
+                "Bonson Terrace": "7:17",
+                "Kafcaloudes Cres": "7:22",
+                "Driver Av Shops.": "7:28",
+                "Palmerston Interchange.": "7:37"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "8:10",
+                "Coles": "8:13",
+                "Driver Av Shops": "8:15",
+                "Bonson Terrace": "8:22",
+                "Kafcaloudes Cres": "8:27",
+                "Driver Av Shops.": "8:33",
+                "Palmerston Interchange.": "8:42"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "9:15",
+                "Coles": "9:18",
+                "Driver Av Shops": "9:20",
+                "Bonson Terrace": "9:27",
+                "Kafcaloudes Cres": "9:32",
+                "Driver Av Shops.": "9:38",
+                "Palmerston Interchange.": "9:47"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "10:20",
+                "Coles": "10:23",
+                "Driver Av Shops": "10:25",
+                "Bonson Terrace": "10:32",
+                "Kafcaloudes Cres": "10:37",
+                "Driver Av Shops.": "10:43",
+                "Palmerston Interchange.": "10:52"
+              }
+            ]
+          },
+          {
+            "service": "Sun",
+            "timetable": [
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "7:40",
+                "Coles": "7:43",
+                "Driver Av Shops": "7:45",
+                "Bonson Terrace": "7:52",
+                "Kafcaloudes Cres": "7:57",
+                "Driver Av Shops.": "8:03",
+                "Palmerston Interchange.": "8:12"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "8:15",
+                "Coles": "8:18",
+                "Driver Av Shops": "8:20",
+                "Bonson Terrace": "8:27",
+                "Kafcaloudes Cres": "8:32",
+                "Driver Av Shops.": "8:38",
+                "Palmerston Interchange.": "8:47"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "9:20",
+                "Coles": "9:23",
+                "Driver Av Shops": "9:25",
+                "Bonson Terrace": "9:32",
+                "Kafcaloudes Cres": "9:37",
+                "Driver Av Shops.": "9:43",
+                "Palmerston Interchange.": "9:52"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "10:25",
+                "Coles": "10:28",
+                "Driver Av Shops": "10:30",
+                "Bonson Terrace": "10:37",
+                "Kafcaloudes Cres": "10:42",
+                "Driver Av Shops.": "10:48",
+                "Palmerston Interchange.": "10:57"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "11:30",
+                "Coles": "11:33",
+                "Driver Av Shops": "11:35",
+                "Bonson Terrace": "11:42",
+                "Kafcaloudes Cres": "11:47",
+                "Driver Av Shops.": "11:53",
+                "Palmerston Interchange.": "12:02"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "12:35",
+                "Coles": "12:38",
+                "Driver Av Shops": "12:40",
+                "Bonson Terrace": "12:47",
+                "Kafcaloudes Cres": "12:52",
+                "Driver Av Shops.": "12:58",
+                "Palmerston Interchange.": "1:07"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "1:40",
+                "Coles": "1:43",
+                "Driver Av Shops": "1:45",
+                "Bonson Terrace": "1:52",
+                "Kafcaloudes Cres": "1:57",
+                "Driver Av Shops.": "2:03",
+                "Palmerston Interchange.": "2:12"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "2:45",
+                "Coles": "2:48",
+                "Driver Av Shops": "2:50",
+                "Bonson Terrace": "2:57",
+                "Kafcaloudes Cres": "3:02",
+                "Driver Av Shops.": "3:08",
+                "Palmerston Interchange.": "3:17"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "3:50",
+                "Coles": "3:53",
+                "Driver Av Shops": "3:55",
+                "Bonson Terrace": "4:02",
+                "Kafcaloudes Cres": "4:07",
+                "Driver Av Shops.": "4:13",
+                "Palmerston Interchange.": "4:22"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "4:55",
+                "Coles": "4:58",
+                "Driver Av Shops": "5:00",
+                "Bonson Terrace": "5:07",
+                "Kafcaloudes Cres": "5:12",
+                "Driver Av Shops.": "5:18",
+                "Palmerston Interchange.": "5:27"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "6:00",
+                "Coles": "6:03",
+                "Driver Av Shops": "6:05",
+                "Bonson Terrace": "6:12",
+                "Kafcaloudes Cres": "6:17",
+                "Driver Av Shops.": "6:23",
+                "Palmerston Interchange.": "6:32"
+              },
+              {
+                "Major Stops": 70,
+                "Palmerston Interchange": "7:05",
+                "Coles": "7:08",
+                "Driver Av Shops": "7:10",
+                "Bonson Terrace": "7:17",
+                "Kafcaloudes Cres": "7:22",
+                "Driver Av Shops.": "7:28",
+                "Palmerston Interchange.": "7:37"
+              }
             ]
           }
         ]
@@ -2545,41 +4626,117 @@
     ]
   },
   {
-    "bus": "88",
-    "route": "Casuarina to northern suburbs and return",
-    "desc": "",
-    "colour": "",
+    "bus": "445",
+    "route": "Rural areas to Palmerston and return",
     "trips": [
       {
-        "name": "Palmerston to Palmerston",
-        "origin": "",
-        "destination": "",
+        "name": "Humpty Doo Park and Ride to Palmerston",
+        "desc": "via Cox Peninsula, Noonamah and Coolalinga Park and Ride",
         "services": [
           {
-            "service": "",
+            "service": "Monday to Friday",
             "timetable": [
-  
+              {
+                "Major Stops": 445,
+                "Humpty Doo Park and Ride": "6:05",
+                "Cox Peninsula Road": "6:25",
+                "Noonamah Hotel": "6:30",
+                "Coolalinga Park and Ride": "6:45",
+                "Palmerston Interchange": "7:00"
+              },
+              {
+                "Major Stops": "445(a)",
+                "Humpty Doo Park and Ride": "6:50",
+                "Cox Peninsula Road": "7:10",
+                "Noonamah Hotel": "7:15",
+                "Coolalinga Park and Ride": "7:35",
+                "Palmerston Interchange": "8:00"
+              }
+            ]
+          },
+          {
+            "service": "Saturday",
+            "timetable": [
+              {
+                "Major Stops": 445,
+                "Humpty Doo Park and Ride": "6:15",
+                "Cox Peninsula Road": "6:35",
+                "Noonamah Hotel": "6:40",
+                "Coolalinga Park and Ride": "6:55",
+                "Palmerston Interchange": "7:10"
+              },
+              {
+                "Major Stops": 445,
+                "Humpty Doo Park and Ride": "7:50",
+                "Cox Peninsula Road": "8:10",
+                "Noonamah Hotel": "8:15",
+                "Coolalinga Park and Ride": "8:30",
+                "Palmerston Interchange": "8:45"
+              }
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "bus": "66",
-    "route": "Mindil Beach sunset market",
-    "desc": "",
-    "colour": "",
-    "trips": [
+      },
       {
-        "name": "Palmerston to Palmerston",
-        "origin": "",
-        "destination": "",
+        "name": "Palmerston to Humpty Doo Park and Ride",
+        "desc": "via Coolalinga Park and Ride, Noonamah and Cox Peninsula Road",
         "services": [
           {
-            "service": "",
+            "service": "Monday to Friday",
             "timetable": [
-  
+              {
+                "Major Stops": "*445",
+                "Palmerston Interchange": "3:45",
+                "Coolalinga Park and Ride": "4:00",
+                "Noonamah Hotel": "4:15",
+                "Cox Peninsula Road": "4:20",
+                "Humpty Doo Park and Ride": "4:40"
+              },
+              {
+                "Major Stops": 445,
+                "Palmerston Interchange": "4:15",
+                "Coolalinga Park and Ride": "4:30",
+                "Noonamah Hotel": "4:45",
+                "Cox Peninsula Road": "4:50",
+                "Humpty Doo Park and Ride": "5:15"
+              },
+              {
+                "Major Stops": 445,
+                "Palmerston Interchange": "4:50",
+                "Coolalinga Park and Ride": "5:05",
+                "Noonamah Hotel": "5:20",
+                "Cox Peninsula Road": "5:25",
+                "Humpty Doo Park and Ride": "5:50"
+              },
+              {
+                "Major Stops": 445,
+                "Palmerston Interchange": "6:00",
+                "Coolalinga Park and Ride": "6:15",
+                "Noonamah Hotel": "6:30",
+                "Cox Peninsula Road": "6:35",
+                "Humpty Doo Park and Ride": "6:55"
+              }
+            ]
+          },
+          {
+            "service": "Saturday",
+            "timetable": [
+              {
+                "Major Stops": 445,
+                "Palmerston Interchange": "4:05",
+                "Coolalinga Park and Ride": "4:20",
+                "Noonamah Hotel": "4:35",
+                "Cox Peninsula Road": "4:40",
+                "Humpty Doo Park and Ride": "5:00"
+              },
+              {
+                "Major Stops": 445,
+                "Palmerston Interchange": "6:00",
+                "Coolalinga Park and Ride": "6:15",
+                "Noonamah Hotel": "6:30",
+                "Cox Peninsula Road": "6:35",
+                "Humpty Doo Park and Ride": "6:55"
+              }
             ]
           }
         ]
